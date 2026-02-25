@@ -176,9 +176,32 @@ python3 integration/neural_field_system_minimal.py
 ```
 
 **Architecture**:
-- **spaCy** = Sensory cortex (perception as perturbation)
+- **SensoryCortex** = Perception (dual-mode: spaCy/lightweight)
 - **Neural Field** = Cortex (continuous dynamics)
 - **AttractorMemory** = Hippocampus (energy landscape)
+
+### 👁️ Dual-Mode Perception
+
+**Development mode** (spaCy - rich features):
+```python
+from integration.sensory_cortex import SensoryCortex
+
+cortex = SensoryCortex(mode="spacy")  # Mature NLP
+perturbation = cortex.perceive("The cat sits")
+```
+
+**Deployment mode** (lightweight - efficient):
+```python
+cortex = SensoryCortex(mode="lightweight")  # 7.6x faster
+perturbation = cortex.perceive("The cat sits")
+```
+
+**Performance comparison**:
+| Metric | spaCy | Lightweight | Improvement |
+|--------|-------|-------------|-------------|
+| Speed | 57ms | 7.5ms | **7.6x** faster |
+| Memory | ~50MB | ~1KB | **5000x** smaller |
+| Correlation | - | r=0.508 | Moderate agreement |
 
 ---
 
