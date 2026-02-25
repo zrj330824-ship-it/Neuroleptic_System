@@ -160,25 +160,38 @@ python3 integration/neural_field_system.py
 
 ### 🧠 Complete System (Neural Field System)
 
-**Full version** (production-ready):
+**Version 1: Full** (production-ready, dual-mode perception):
 ```python
 from integration.neural_field_system import NeuralFieldSystem
 
-brain = NeuralFieldSystem()
+brain = NeuralFieldSystem(perception_mode="spacy")  # or "lightweight"
 brain.see("The cat sits on the mat")
 brain.think(steps=50)
 brain.learn()
 ```
 
-**Minimal version** (clean reference):
+**Version 2: Minimal** (clean reference, 300 lines):
 ```bash
 python3 integration/neural_field_system_minimal.py
+```
+
+**Version 3: Optimized** (timescale separation, active perception):
+```bash
+python3 integration/neural_field_optimized.py
 ```
 
 **Architecture**:
 - **SensoryCortex** = Perception (dual-mode: spaCy/lightweight)
 - **Neural Field** = Cortex (continuous dynamics)
 - **AttractorMemory** = Hippocampus (energy landscape)
+
+**Version Comparison**:
+
+| Version | Lines | Perception | Timescales | Active | Best For |
+|---------|-------|------------|------------|--------|----------|
+| **Full** | 363 | Dual-mode | ✅ | ❌ | Production |
+| **Minimal** | 309 | spaCy only | ✅ | ❌ | Learning |
+| **Optimized** | 424 | spaCy only | ✅ Explicit | ✅ | Research |
 
 ### 👁️ Dual-Mode Perception
 
