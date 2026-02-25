@@ -125,6 +125,8 @@
 
 ## 📦 Quick Start
 
+### Basic (Neural Field Only)
+
 ```bash
 # Install dependencies
 pip install jax jaxlib numpy matplotlib
@@ -135,6 +137,23 @@ python3 core/neural_field_2d.py
 # Run benchmarks
 python3 benchmarks/efficiency_comparison.py
 ```
+
+### Advanced (Neural Field + Language)
+
+```bash
+# Install spaCy (symbol system)
+pip install spacy
+python3 -m spacy download en_core_web_sm
+
+# Run interface demo
+python3 integration/spacy_interface.py
+```
+
+**What it does**:
+- Text → Neural Field (encode language as patterns)
+- Neural Field → Text (decode attractors as descriptions)
+- Pattern completion (partial input → evolved output)
+- Associative memory ("bell" ↔ "food")
 
 ---
 
