@@ -7,6 +7,19 @@
 
 ---
 
+## ⚠️ Research Status (IMPORTANT)
+
+**This is ACTIVE RESEARCH, not a production-ready system.**
+
+- ✅ **Verified**: CPU benchmarks (185 steps/sec, 200x200 grid)
+- ⏳ **Pending**: GPU benchmarks (waiting driver installation)
+- ⚠️ **Not Verified**: Direct comparisons with LLMs (GPT-4, GPT-4o, etc.)
+- 📝 **Under Review**: Fair benchmark methodology
+
+**All performance claims are preliminary and subject to verification with fair testing methodology.**
+
+---
+
 ## 🚀 Core Advantage
 
 | Metric | Transformer (7B) | Neuroleptic | **Improvement** |
@@ -64,11 +77,37 @@ neuro_symbolic_reasoner/
 
 ## 📊 Performance
 
-| Task | GPT-4 | Ours | VRAM |
-|------|-------|------|------|
-| **IMO Geometry** | 45% | **85%** | **0.5GB** ✅ |
-| **Logic Reasoning** | 85% | **92%** | **0.5GB** ✅ |
-| **Pattern Completion** | N/A | **95%** | **0.5GB** ✅ |
+### ✅ Verified Benchmarks (CPU - Intel i5)
+
+| Metric | Neural Field (200x200) | Status |
+|--------|----------------------|--------|
+| **Speed** | 185 steps/sec | ✅ Verified |
+| **Throughput** | 1.9M points/sec | ✅ Verified |
+| **Memory** | ~200MB | ✅ Verified |
+| **Power** | ~5-10W (estimated) | ⏳ Pending |
+
+### ⏳ GPU Benchmarks (Pending)
+
+| Metric | Expected | Status |
+|--------|----------|--------|
+| **Speed** | 5000+ steps/sec | ⏳ Waiting GPU driver |
+| **Speedup** | 20-50x vs CPU | ⏳ To verify |
+
+### ⚠️ Task Comparison (Under Fair Testing)
+
+**Note**: Direct comparison with LLMs requires fair benchmark methodology. We are currently:
+
+- [ ] Setting up standardized tests (same config, same task)
+- [ ] Running multiple trials (min 5 runs)
+- [ ] Computing statistical significance
+- [ ] Preparing reproducible benchmarks
+
+**Preliminary observations** (NOT peer-reviewed):
+- Pattern completion: Strong performance (attractor dynamics)
+- Associative memory: Strong performance (Hebbian learning)
+- Logic reasoning: Comparable to small Transformers (research ongoing)
+
+**DO NOT compare directly with GPT-4/4o without fair methodology!**
 
 ---
 
