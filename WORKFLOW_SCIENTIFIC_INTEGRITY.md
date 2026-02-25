@@ -6,6 +6,72 @@
 
 ---
 
+# 🔐 Credentials & Tokens Workflow
+
+**Version**: 1.0  
+**Effective**: 2026-02-25  
+**Priority**: CRITICAL ⭐⭐⭐⭐⭐
+
+## When Receiving ANY Token/Credential
+
+### Step 1: IMMEDIATELY Store (First Priority!)
+
+**DO THIS BEFORE ANYTHING ELSE**:
+
+1. Open `TOOLS.md`
+2. Add under "🔐 Credentials & Tokens" section
+3. Format:
+   ```markdown
+   ### Service Name
+   
+   - **Token**: `actual_token_value`
+   - **Stored**: YYYY-MM-DD HH:MM
+   - **Expires**: YYYY-MM-DD (90 days)
+   - **Next Rotation**: YYYY-MM-DD
+   - **Scope**: what it can do
+   ```
+
+4. Or store in `.env`:
+   ```bash
+   SERVICE_TOKEN=actual_token_value
+   chmod 600 .env
+   ```
+
+### Step 2: Verify Access
+
+```bash
+# Test the token works
+export SERVICE_TOKEN=xxx
+curl -H "Authorization: token $SERVICE_TOKEN" https://api.service.com/user
+```
+
+### Step 3: Use Immediately (If Urgent)
+
+- If there's urgent work (like removing unverified claims), DO IT NOW
+- Don't wait - tokens might expire
+- Don't assume you'll remember later
+
+### Step 4: Secure
+
+- Never commit to Git
+- Never share in chat (after storing)
+- Rotate every 90 days
+
+---
+
+## Red Flags (STOP and Fix)
+
+| Red Flag | Action |
+|----------|--------|
+| Token exposed in chat | **Rotate immediately!** |
+| Token not stored | **Store before anything else!** |
+| Token expired | **Get new one, update storage!** |
+| Token permissions wrong | **Re-create with correct scopes!** |
+
+---
+
+---
+
 ## 🎯 Purpose
 
 **刻入基因的原则**: Scientific integrity is non-negotiable.

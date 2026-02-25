@@ -52,6 +52,41 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## 🔐 Credentials & Tokens (CORE WORKFLOW) ⭐⭐⭐⭐⭐
+
+**刻入基因的原则**:
+
+### When Receiving ANY Token/Credential
+
+1. **IMMEDIATELY Store** (first priority!)
+   - Store in `TOOLS.md` under "🔐 Credentials & Tokens"
+   - Or store in `.env` file (chmod 600)
+   - Format: `SERVICE_TOKEN=actual_token_value`
+   - Add metadata: stored date, expires, next rotation
+
+2. **Verify Access**
+   - Test the token works
+   - Check permissions/scopes
+   - Document what it can do
+
+3. **Secure Storage**
+   - Never commit to Git
+   - Never share in chat
+   - Use environment variables or secure files
+   - Rotate every 90 days
+
+4. **Use Immediately**
+   - If there's urgent work (like GitHub push), do it NOW
+   - Don't wait - tokens might expire
+
+### Red Flags
+
+- 🚩 Token exposed in chat → Rotate immediately!
+- 🚩 Token not stored → Store before doing anything else
+- 🚩 Token expired → Get new one, update storage
+
+---
+
 ## 🧪 Scientific Integrity (CORE PRINCIPLE) ⭐⭐⭐⭐⭐
 
 **This is non-negotiable.刻入基因的原则**:

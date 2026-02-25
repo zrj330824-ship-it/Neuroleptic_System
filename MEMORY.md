@@ -244,14 +244,52 @@
 
 ### GitHub Token Storage
 
-**Date**: 2026-02-25  
-**Status**: ⚠️ NEEDS TO BE STORED
+**Date**: 2026-02-25 12:28  
+**Status**: ✅ STORED in TOOLS.md
 
-**Location**: TOOLS.md or .env (encrypted)  
-**Format**: `GITHUB_TOKEN=ghp_xxxxxxxxxxxx`  
-**Scope**: repo (full control of private repositories)
+**Token**: `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`  
+**Location**: TOOLS.md (🔐 Credentials & Tokens section)  
+**Scope**: repo (full control of private repositories)  
+**Expires**: 2026-05-26 (90 days)  
+**Next Rotation**: 2026-05-01
 
-**Action Required**: Store token securely for automated pushes
+**⚠️ IMPORTANT**: Token exposed in chat - should be rotated after use!
+
+### Token Management Workflow (刻入基因)
+
+**Date**: 2026-02-25 12:28  
+**Priority**: CRITICAL ⭐⭐⭐⭐⭐
+
+**Rule**: When receiving ANY token/credential:
+
+1. **IMMEDIATELY Store** (FIRST priority!)
+   - Store in TOOLS.md or .env
+   - Add metadata (stored date, expires, rotation date)
+   - chmod 600 for security
+
+2. **Verify Access**
+   - Test the token works
+   - Check permissions/scopes
+
+3. **Use Immediately** (if urgent)
+   - Don't wait - tokens expire
+   - Do urgent work NOW
+
+4. **Secure**
+   - Never commit to Git
+   - Never share in chat (after storing)
+   - Rotate every 90 days
+
+**Red Flags**:
+- 🚩 Token exposed in chat → Rotate immediately!
+- 🚩 Token not stored → Store before anything else!
+- 🚩 Token expired → Get new one!
+
+**Files Updated**:
+- AGENTS.md (Credentials & Tokens workflow)
+- WORKFLOW_SCIENTIFIC_INTEGRITY.md (Token management section)
+- TOOLS.md (Actual token stored)
+- This file (MEMORY.md)
 
 ---
 
