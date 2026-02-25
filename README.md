@@ -99,6 +99,28 @@
 - ✅ Deployable on edge devices
 - ⚠️ Still research-stage, not production-ready
 
+### 👶 Biological Inspiration: How Babies Learn
+
+**Neural Field (15M params) = Baby Brain**  
+**GPT-4o (200B params) = Adult Mentor**
+
+| Stage | Age | What Happens | Our Architecture |
+|-------|-----|--------------|------------------|
+| **Sensorimotor** | 0-6mo | Random action → feedback → patterns | Neural Field learns attractors |
+| **Statistical** | 6-12mo | Observe regularities → predict | Neural Field temporal prediction |
+| **Social** | 12-24mo | Adult names patterns → language | GPT-4o labels Neural Field states |
+| **Abstract** | 2-5y | Concrete experience → symbols | Grounded symbols (not empty) |
+
+**Key Insight**:
+> LLMs are like "disembodied brains" — they speak, but don't know what "apple" feels like.
+> 
+> Neural Field provides the **embodied experience** that grounds language in reality.
+
+**Why This Matters**:
+- ✅ 15M params is ENOUGH for baby-level learning (patterns, prediction, memory)
+- ✅ GPT-4o provides language, goals, explanations
+- ✅ Together: Grounded intelligence, not just text prediction
+
 ---
 
 ## 📦 Quick Start
