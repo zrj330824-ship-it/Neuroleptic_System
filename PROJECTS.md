@@ -1,189 +1,41 @@
-# 📊 Active Projects Index
+# 📊 Active Projects Index (Optimized)
 
-**Last Updated**: 2026-02-25 13:14  
-**Session**: Main  
-**Context Switching**: WORKFLOW_CONTEXT_SWITCHING.md
-
----
-
-## 🚨 NEW SESSION START HERE! (FIRST READ)
-
-**Token Budget**: 262,144 tokens — Use Wisely!
-
-### Read Order (Every New Session)
-
-```
-1. AGENTS.md         → Core rules, workflows
-2. SOUL.md           → Identity
-3. USER.md           → Human info
-4. MEMORY.md         → Long-term memory
-5. THIS FILE         → Project overview
-6. projects/*/MEMORY.md → Specific project context
-```
-
-### Quick Status Check (30 seconds)
-
-```bash
-# View all project statuses
-for f in projects/*/MEMORY.md; do echo "=== $f ==="; head -20 "$f"; done
-
-# Check critical issues
-grep -r "CRITICAL\|🔴" projects/*/MEMORY.md
-```
-
-### Current Critical Issues
-
-| Project | Issue | Action | Time |
-|---------|-------|--------|------|
-| **Trading** | 0 trades in 21h | DEPLOY to VPS | NOW |
-| **Neuroleptic** | GPU tests pending | Wait driver | Soon |
-| **Content** | Cookies pending | Import | Today |
+**Last Updated**: 2026-02-25 13:25  
+**Read**: Status table only (<2K tokens)
 
 ---
 
 ## 🎯 Active Projects
 
----
-
-## 🎯 Active Projects
-
-| Project | Status | Priority | Last Active | Next Action | Link |
-|---------|--------|----------|-------------|-------------|------|
-| **Trading** | 🟡 Active | ⭐⭐⭐⭐⭐ | Now | DEPLOY to VPS | [MEMORY](projects/trading/MEMORY.md) |
-| **Neuroleptic** | 🟢 Research | ⭐⭐⭐⭐⭐ | 30m ago | Wait GPU tests | [MEMORY](projects/neuroleptic/MEMORY.md) |
-| **Content** | 🟢 Active | ⭐⭐⭐⭐ | 1h ago | Import Cookies | [MEMORY](projects/content/MEMORY.md) |
-| **Automation** | 🟢 Active | ⭐⭐⭐⭐ | Now | Configure Cron | [MEMORY](projects/automation/MEMORY.md) |
+| Project | Status | Priority | Next Action | Memory |
+|---------|--------|----------|-------------|--------|
+| **Trading** | 🟡 Monitoring | ⭐⭐⭐⭐⭐ | First trade expected | [projects/trading/](projects/trading/MEMORY.md) |
+| **Neuroleptic** | 🟢 Research | ⭐⭐⭐⭐⭐ | Wait GPU tests | [projects/neuroleptic/](projects/neuroleptic/MEMORY.md) |
+| **Content** | 🟢 Active | ⭐⭐⭐⭐ | Import Cookies | [projects/content/](projects/content/MEMORY.md) |
+| **Automation** | 🟢 Active | ⭐⭐⭐⭐ | Configure Cron | [projects/automation/](projects/automation/MEMORY.md) |
 
 ---
 
-## 🔄 Context Switching Protocol
-
-### Before Switching Projects
-
-1. **Update current project MEMORY.md**
-   ```markdown
-   **Session End**: YYYY-MM-DD HH:MM
-   - Completed: [what]
-   - Changed: [files]
-   - Next: [what next]
-   ```
-
-2. **Update TODO.md**
-   - Mark completed tasks
-   - Add new discoveries
-
-3. **Commit changes**
-   ```bash
-   git add projects/[name]/
-   git commit -m "Context: [summary]"
-   git push
-   ```
-
----
-
-### When Switching TO a Project
-
-1. **Read MEMORY.md** (FIRST!)
-   ```bash
-   cat projects/[name]/MEMORY.md
-   ```
-
-2. **Read TODO.md**
-   ```bash
-   cat projects/[name]/TODO.md
-   ```
-
-3. **Check STATUS.md**
-   ```bash
-   cat projects/[name]/STATUS.md
-   ```
-
-4. **Verify State**
-   ```bash
-   # Run commands from MEMORY.md
-   ```
-
-5. **Note Session Start**
-   ```markdown
-   **Session Start**: YYYY-MM-DD HH:MM
-   - Read MEMORY.md ✅
-   - Starting: [what]
-   ```
-
----
-
-## 📋 Quick Switch Commands
+## 🔄 Quick Switch
 
 ```bash
-# Switch to Trading
-cat projects/trading/MEMORY.md
-cat projects/trading/TODO.md
-cat projects/trading/STATUS.md
+# Read specific project (50 lines max)
+head -50 projects/trading/MEMORY.md
 
-# Switch to Content
-cat projects/content/MEMORY.md
+# Check status
+grep -A5 "Current Status" projects/trading/MEMORY.md
 
-# Switch to Neuroleptic
-cat projects/neuroleptic/MEMORY.md
-
-# Switch to Automation
-cat projects/automation/MEMORY.md
-
-# View all projects
+# View all (summary only)
 for f in projects/*/MEMORY.md; do echo "=== $f ==="; head -15 "$f"; done
 ```
 
 ---
 
-## 🧹 Maintenance
+## 📚 Full Documentation
 
-### Hourly (Cron)
-```bash
-0 * * * * bash /home/jerry/.openclaw/workspace/backup_context.sh
-```
-
-### Daily (Cron)
-```bash
-0 1 * * * bash /home/jerry/.openclaw/workspace/cleanup_workflows.sh
-```
-
-### Weekly (Manual)
-- Review all project MEMORY.md files
-- Archive completed projects
-- Update priorities
+- `WORKFLOW_CONTEXT_SWITCHING.md` — Complete switching protocol
+- `WORKFLOW_TOKEN_OPTIMIZATION.md` — Token efficiency guide
 
 ---
 
-## 📚 Shared Workflows
-
-| Workflow | Purpose | Link |
-|----------|---------|------|
-| Scientific Integrity | Verification before publication | [WORKFLOW_SCIENTIFIC_INTEGRITY.md](WORKFLOW_SCIENTIFIC_INTEGRITY.md) |
-| VPS Deployment | Automated Local→VPS deploy | [WORKFLOW_VPS_DEPLOYMENT.md](WORKFLOW_VPS_DEPLOYMENT.md) |
-| Context Switching | Multi-project management | [WORKFLOW_CONTEXT_SWITCHING.md](WORKFLOW_CONTEXT_SWITCHING.md) |
-| Token Management | Credential handling | [WORKFLOW_SCIENTIFIC_INTEGRITY.md](WORKFLOW_SCIENTIFIC_INTEGRITY.md#credentials) |
-
----
-
-## 🎯 This Week's Cross-Project Goals
-
-**Trading** (Priority: ⭐⭐⭐⭐⭐):
-- [ ] Deploy working bot to VPS (today)
-- [ ] Achieve 3-4 trades/hour
-
-**Content** (Priority: ⭐⭐⭐⭐):
-- [ ] Import Medium/Twitter Cookies
-- [ ] Configure Reddit OAuth2
-
-**Neuroleptic** (Priority: ⭐⭐⭐⭐⭐):
-- [ ] Wait GPU driver
-- [ ] Run fair tests
-
-**Automation** (Priority: ⭐⭐⭐⭐):
-- [ ] Configure Cron auto-deploy
-- [ ] Test context backup
-
----
-
-*Last review*: 2026-02-25 13:06  
-*Next review*: 2026-02-26 06:00 (daily plan generation)
+*Optimized: 2026-02-25 13:25*
