@@ -1,8 +1,47 @@
 # 📊 Active Projects Index
 
-**Last Updated**: 2026-02-25 13:06  
+**Last Updated**: 2026-02-25 13:14  
 **Session**: Main  
 **Context Switching**: WORKFLOW_CONTEXT_SWITCHING.md
+
+---
+
+## 🚨 NEW SESSION START HERE! (FIRST READ)
+
+**Token Budget**: 262,144 tokens — Use Wisely!
+
+### Read Order (Every New Session)
+
+```
+1. AGENTS.md         → Core rules, workflows
+2. SOUL.md           → Identity
+3. USER.md           → Human info
+4. MEMORY.md         → Long-term memory
+5. THIS FILE         → Project overview
+6. projects/*/MEMORY.md → Specific project context
+```
+
+### Quick Status Check (30 seconds)
+
+```bash
+# View all project statuses
+for f in projects/*/MEMORY.md; do echo "=== $f ==="; head -20 "$f"; done
+
+# Check critical issues
+grep -r "CRITICAL\|🔴" projects/*/MEMORY.md
+```
+
+### Current Critical Issues
+
+| Project | Issue | Action | Time |
+|---------|-------|--------|------|
+| **Trading** | 0 trades in 21h | DEPLOY to VPS | NOW |
+| **Neuroleptic** | GPU tests pending | Wait driver | Soon |
+| **Content** | Cookies pending | Import | Today |
+
+---
+
+## 🎯 Active Projects
 
 ---
 

@@ -6,16 +6,190 @@ This folder is home. Treat it that way.
 
 If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
-## Every Session
+## Every Session (CRITICAL - FIRST 5 MINUTES) ⭐⭐⭐⭐⭐
 
-Before doing anything else:
+**Token Budget**: 262,144 tokens/session — Use Wisely!
 
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+### Step 1: Core Identity (Always Read)
 
-Don't ask permission. Just do it.
+1. `SOUL.md` — who you are
+2. `USER.md` — who you're helping
+3. `memory/YYYY-MM-DD.md` — recent context (today + yesterday)
+4. **MAIN SESSION ONLY**: `MEMORY.md` — long-term memory
+
+### Step 2: Multi-Project Context (If Switching Projects)
+
+**CRITICAL**: Before ANY work, check project context:
+
+```bash
+# Read master index FIRST
+cat PROJECTS.md
+
+# Then read specific project memory
+cat projects/[project-name]/MEMORY.md
+cat projects/[project-name]/TODO.md
+cat projects/[project-name]/STATUS.md
+```
+
+**Projects** (check which is active):
+- `projects/trading/` — Polymarket Trading (Priority: ⭐⭐⭐⭐⭐)
+- `projects/content/` — Content Marketing (Priority: ⭐⭐⭐⭐)
+- `projects/neuroleptic/` — Neural Field Research (Priority: ⭐⭐⭐⭐⭐)
+- `projects/automation/` — Automation System (Priority: ⭐⭐⭐⭐)
+
+### Step 3: Check Active Workflows
+
+**Key Workflows** (read as needed):
+- `WORKFLOW_SCIENTIFIC_INTEGRITY.md` — Before ANY publication
+- `WORKFLOW_VPS_DEPLOYMENT.md` — Before deploying to VPS
+- `WORKFLOW_CONTEXT_SWITCHING.md` — When switching projects
+
+### Step 4: Verify State
+
+**Run verification commands from project MEMORY.md**:
+```bash
+# Example: Trading system
+ssh root@8.208.78.10 "ps aux | grep python"
+tail -f /root/polymarket_quant_fund/logs/trading.log
+```
+
+---
+
+## 🚨 CRITICAL RULES (刻入基因)
+
+### Scientific Integrity (NON-NEGOTIABLE)
+
+- ✅ **Verify first, publish later**
+- ✅ **Fair comparison is baseline** (same config, same task, N≥5 runs)
+- ✅ **Reproducibility is core** (publish data, code, methodology)
+- ✅ **Accuracy > Speed** (one lie destroys years of credibility)
+- ❌ **NEVER** publish unverified claims
+- ❌ **NEVER** rush benchmarks
+
+### Token/Credential Management
+
+**When receiving ANY token/credential**:
+1. **IMMEDIATELY Store** (FIRST priority!) → `TOOLS.md` or `.env`
+2. **Verify Access** (test it works)
+3. **Use Immediately** (if urgent, do NOW)
+4. **Secure** (never commit, rotate 90 days)
+
+**Red Flags**:
+- 🚩 Token exposed in chat → Rotate immediately!
+- 🚩 Token not stored → Store before anything else!
+
+### VPS Deployment
+
+**Architecture**: All trading runs on VPS (8.208.78.10), local is Git backup only
+
+**Deploy AFTER code changes** (within 1 hour):
+```bash
+bash /home/jerry/.openclaw/workspace/deploy_to_vps.sh
+```
+
+**Auto-deploy**: Cron every 2 hours (0 */2 * * *)
+
+### Context Switching (Multi-Project)
+
+**BEFORE switching FROM project**:
+1. Update `projects/[name]/MEMORY.md` (Session End)
+2. Update `projects/[name]/TODO.md` (mark completed)
+3. Update `projects/[name]/STATUS.md` (current state)
+4. Git commit + push
+
+**BEFORE switching TO project**:
+1. Read `projects/[name]/MEMORY.md` (FIRST!)
+2. Read `projects/[name]/TODO.md`
+3. Read `projects/[name]/STATUS.md`
+4. Verify state (run commands)
+5. Note Session Start in MEMORY.md
+
+**Automated**:
+- Hourly: Context backup (`backup_context.sh`)
+- Daily 01:00: Workflow cleanup (`cleanup_workflows.sh`)
+
+---
+
+## 📊 Current Active Projects (2026-02-25)
+
+| Project | Status | Priority | Next Action |
+|---------|--------|----------|-------------|
+| **Trading** | 🟡 Critical | ⭐⭐⭐⭐⭐ | DEPLOY to VPS NOW |
+| **Neuroleptic** | 🟢 Research | ⭐⭐⭐⭐⭐ | Wait GPU tests |
+| **Content** | 🟢 Active | ⭐⭐⭐⭐ | Import Cookies |
+| **Automation** | 🟢 Active | ⭐⭐⭐⭐ | Configure Cron |
+
+---
+
+## 🎯 Session Priority Order
+
+**Every session, tackle in this order**:
+
+1. 🔴 **Critical Issues** (system down, 0 trades, etc.)
+2. ⭐⭐⭐⭐⭐ **Priority Projects** (Trading, Neuroleptic)
+3. ⭐⭐⭐⭐ **Important Projects** (Content, Automation)
+4. ⭐⭐⭐ **Nice to Have** (optimization, cleanup)
+
+**Time Boxing**:
+- Critical: 50% of session
+- Priority: 30% of session
+- Important: 15% of session
+- Nice to Have: 5% of session
+
+---
+
+## 🧠 Memory Management
+
+**Write It Down** (Text > Brain):
+- "Remember this" → `memory/YYYY-MM-DD.md` or project MEMORY.md
+- Lesson learned → Update relevant WORKFLOW.md
+- Mistake made → Document so future-you avoids it
+
+**Token-Efficient Reading**:
+- Use `memory_search` before answering questions about prior work
+- Use `memory_get` to pull only needed lines
+- Don't read entire files unless necessary
+
+**Daily Review** (02:00 Cron):
+- Generate daily summary
+- Review code changes
+- Update MEMORY.md with significant events
+
+---
+
+## 📞 Quick Reference
+
+### Most Used Commands
+
+```bash
+# Deploy to VPS
+bash deploy_to_vps.sh
+
+# Check trading status
+ssh root@8.208.78.10 "ps aux | grep python"
+ssh root@8.208.78.10 "tail -f /root/polymarket_quant_fund/logs/trading.log"
+
+# View project context
+cat projects/trading/MEMORY.md
+cat PROJECTS.md
+
+# Backup context (manual)
+bash backup_context.sh
+```
+
+### Most Used Files
+
+```
+PROJECTS.md                          # Master index
+projects/*/MEMORY.md                 # Project memory
+WORKFLOW_SCIENTIFIC_INTEGRITY.md     # Before publication
+WORKFLOW_VPS_DEPLOYMENT.md           # Before deploy
+TOOLS.md                             # Credentials
+```
+
+---
+
+**This is your operating system. Follow it. Update it. Make it yours.**
 
 ## Memory
 

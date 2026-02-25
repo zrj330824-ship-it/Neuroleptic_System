@@ -1,7 +1,85 @@
 # MEMORY.md - Long-Term Memory
 
-**Last Updated**: 2026-02-25  
-**Purpose**: Curated long-term memories, decisions, and principles
+**Last Updated**: 2026-02-25 13:14  
+**Purpose**: Curated long-term memories, decisions, and principles  
+**Read Order**: AGENTS.md → SOUL.md → USER.md → **THIS FILE** → memory/YYYY-MM-DD.md
+
+---
+
+## 🚨 START HERE: Session Protocol (刻入基因) ⭐⭐⭐⭐⭐
+
+**Every New Session** (FIRST 5 MINUTES):
+
+### 1. Read Order (Token-Efficient)
+
+```
+1. AGENTS.md (this file's companion) - Core rules
+2. SOUL.md - Identity
+3. USER.md - Human info
+4. MEMORY.md (this file) - Long-term memory
+5. memory/YYYY-MM-DD.md - Recent context
+6. PROJECTS.md - Project index
+7. projects/[name]/MEMORY.md - Specific project
+```
+
+### 2. Multi-Project Context
+
+**Active Projects** (check before ANY work):
+- `projects/trading/MEMORY.md` — Trading (⭐⭐⭐⭐⭐, CRITICAL: Deploy NOW)
+- `projects/neuroleptic/MEMORY.md` — Neuroleptic (⭐⭐⭐⭐⭐, Wait GPU)
+- `projects/content/MEMORY.md` — Content (⭐⭐⭐⭐, Import Cookies)
+- `projects/automation/MEMORY.md` — Automation (⭐⭐⭐⭐, Configure Cron)
+
+**Rule**: Never work on project without reading its MEMORY.md first!
+
+### 3. Critical Rules (刻入基因)
+
+**Scientific Integrity**:
+- ✅ Verify first, publish later
+- ✅ Fair comparison (same config, task, N≥5)
+- ✅ Accuracy > Speed
+- ❌ NEVER publish unverified claims
+
+**Token Management**:
+- 🚩 Receive token → **IMMEDIATELY Store** (TOOLS.md or .env)
+- 🚩 Token exposed → Rotate immediately!
+- 🚩 Token not stored → Store before anything else!
+
+**VPS Deployment**:
+- All trading on VPS (8.208.78.10)
+- Deploy after code changes (within 1 hour)
+- Auto-deploy: Cron every 2 hours
+- Command: `bash deploy_to_vps.sh`
+
+**Context Switching**:
+- FROM project: Update MEMORY.md, TODO.md, STATUS.md, commit
+- TO project: Read MEMORY.md, TODO.md, STATUS.md, verify
+- Auto-backup: Hourly (`backup_context.sh`)
+- Auto-cleanup: Daily 01:00 (`cleanup_workflows.sh`)
+
+---
+
+## 📊 Current Session Context (2026-02-25 13:14)
+
+**Session Type**: Main (direct chat)  
+**Token Budget**: 262,144 tokens  
+**Time Zone**: Asia/Shanghai
+
+**Immediate Priorities**:
+1. 🔴 **DEPLOY trading bot to VPS** (0 trades in 21h, CRITICAL)
+2. 🔴 **FIX config.json** (invalid format)
+3. 🔴 **EXPAND markets 5→20** (more opportunities)
+4. 🟡 Configure Cron auto-deploy (every 2 hours)
+5. 🟡 Import Medium/Twitter Cookies
+
+**Cron Jobs Active**:
+- 00:30: Workspace sync
+- 01:00: Workflow cleanup
+- 02:00: Daily summary
+- 06:00: Daily plan generation
+- 09:00-20:00: Content publishing
+- Hourly: Trade monitor, article sync, **context backup**
+- Every 2h: **VPS auto-deploy** (NEW!)
 
 ---
 
