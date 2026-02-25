@@ -1,0 +1,93 @@
+{
+  "vps_config": {
+    "secret": "distributed_trading_secret_2026",
+    "environment": "production"
+  },
+  
+  "trading_parameters": {
+    "⚠️ 核心参数 - 优化交易频率": {
+      "说明": "调整以下参数以达到每小时 3-4 笔交易",
+      "目标": "3-4 trades/hour = 72-96 trades/day"
+    },
+    
+    "min_arbitrage_threshold": 0.003,
+    "说明 1": "降低套利阈值从 0.5% 到 0.3%，增加信号数量",
+    
+    "safety_margin": 1.2,
+    "说明 2": "降低安全边际从 1.3 到 1.2，更积极执行",
+    
+    "min_profit_margin": 0.002,
+    "说明 3": "降低最小利润率从 0.3% 到 0.2%，接受更小但确定的利润",
+    
+    "scan_interval_seconds": 30,
+    "说明 4": "保持 30 秒扫描间隔，确保及时发现机会",
+    
+    "max_positions_concurrent": 5,
+    "说明 5": "允许最多 5 个并发持仓，增加同时交易机会",
+    
+    "position_size_per_trade": 0.02,
+    "说明 6": "每笔交易 2% 资金，控制风险同时增加频次"
+  },
+  
+  "execution": {
+    "dry_run": false,
+    "说明": "关闭干跑模式，启用真实交易",
+    "max_slippage": 0.025,
+    "说明 2": "放宽滑点到 2.5%，增加成交概率",
+    "order_timeout_seconds": 120,
+    "说明 3": "订单超时 2 分钟，避免长时间挂单",
+    "retry_failed_orders": true,
+    "max_retries": 2
+  },
+  
+  "risk_management": {
+    "max_drawdown": 0.15,
+    "说明": "最大回撤 15%（从 20% 降低，更严格控制）",
+    "max_daily_loss": 0.08,
+    "说明 2": "每日最大亏损 8%（从 5% 提高，允许更多交易）",
+    "max_position_total": 0.15,
+    "说明 3": "总持仓上限 15%（从 10% 提高）",
+    "max_position_single": 0.05,
+    "说明 4": "单一市场最大持仓 5%",
+    "stop_loss_per_trade": 0.03,
+    "说明 5": "单笔止损 3%",
+    "take_profit_per_trade": 0.06,
+    "说明 6": "单笔止盈 6%",
+    "trailing_stop": true,
+    "说明 7": "启用追踪止损，保护利润"
+  },
+  
+  "market_filters": {
+    "min_volume_24h": 5000,
+    "说明": "最小 24 小时交易量$5000，确保流动性",
+    "max_spread_percent": 0.05,
+    "说明 2": "最大买卖价差 5%",
+    "exclude_low_liquidity": true,
+    "优先高流动性市场": true
+  },
+  
+  "event_score_config": {
+    "启用 EventScore 评分": true,
+    "min_event_score": 0.4,
+    "说明": "最低 EventScore 0.4，过滤低质量机会",
+    "高分优先": true,
+    "说明 2": "优先执行 EventScore > 0.7 的机会"
+  },
+  
+  "frequency_control": {
+    "目标每小时交易数": "3-4",
+    "min_trade_interval_seconds": 60,
+    "说明": "最小交易间隔 60 秒，避免过频",
+    "max_trades_per_hour": 5,
+    "说明 2": "每小时最多 5 笔，防止过度交易",
+    "自适应频率": true,
+    "说明 3": "根据市场波动率自动调整频率"
+  },
+  
+  "notification": {
+    "telegram_enabled": true,
+    "notify_on_trade": true,
+    "notify_on_error": true,
+    "daily_summary": true
+  }
+}
