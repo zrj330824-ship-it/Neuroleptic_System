@@ -1,0 +1,40 @@
+{
+  "vps_config": {
+    "secret": "distributed_trading_secret_2026",
+    "environment": "production"
+  },
+  "trading_parameters": {
+    "min_arbitrage_threshold": 0.0025,
+    "safety_margin": 1.2,
+    "min_profit_margin": 0.002,
+    "scan_interval_seconds": 20,
+    "max_positions_concurrent": 8,
+    "position_size_per_trade": 0.02
+  },
+  "execution": {
+    "dry_run": false,
+    "max_slippage": 0.025,
+    "order_timeout_seconds": 120,
+    "retry_failed_orders": true,
+    "max_retries": 2
+  },
+  "risk_management": {
+    "max_drawdown": 0.15,
+    "max_daily_loss": 0.08,
+    "max_position_total": 0.15,
+    "max_position_single": 0.05,
+    "stop_loss_per_trade": 0.03,
+    "take_profit_per_trade": 0.06,
+    "trailing_stop": true
+  },
+  "market_filters": {
+    "min_volume_24h": 5000,
+    "max_spread_percent": 0.05,
+    "exclude_low_liquidity": true
+  },
+  "frequency_control": {
+    "target_trades_per_hour": 4,
+    "min_trade_interval_seconds": 60,
+    "max_trades_per_hour": 5
+  }
+}

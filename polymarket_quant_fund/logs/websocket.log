@@ -1,0 +1,29 @@
+2026-02-24 21:30:10,380 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-24 21:30:10,511 - __main__ - INFO - ✅ WebSocket connected
+2026-02-24 21:30:10,557 - __main__ - INFO - ✅ Retrieved 5 active token IDs
+2026-02-24 21:30:10,558 - __main__ - INFO - 📤 Subscribed to 5 markets
+2026-02-25 02:30:25,194 - __main__ - INFO - 🔌 WebSocket connection closed
+2026-02-25 02:30:25,194 - __main__ - INFO - 🔄 Reconnecting in 30s...
+2026-02-25 02:30:55,221 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-25 02:30:55,288 - __main__ - INFO - ✅ WebSocket connected
+2026-02-25 02:30:55,288 - __main__ - INFO - 📤 Subscribed to 5 markets
+2026-02-25 03:46:47,945 - __main__ - INFO - 🔌 WebSocket connection closed
+2026-02-25 03:46:47,946 - __main__ - INFO - 🔄 Reconnecting in 30s...
+2026-02-25 03:47:17,976 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-25 03:47:18,070 - __main__ - INFO - ✅ WebSocket connected
+2026-02-25 03:47:18,071 - __main__ - INFO - 📤 Subscribed to 5 markets
+2026-02-25 03:59:01,045 - __main__ - INFO - 🔌 WebSocket connection closed
+2026-02-25 03:59:01,045 - __main__ - INFO - 🔄 Reconnecting in 30s...
+2026-02-25 03:59:31,069 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-25 03:59:31,125 - __main__ - INFO - ✅ WebSocket connected
+2026-02-25 03:59:31,125 - __main__ - INFO - 📤 Subscribed to 5 markets
+2026-02-25 04:55:54,884 - __main__ - INFO - 🔌 WebSocket connection closed
+2026-02-25 04:55:54,884 - __main__ - INFO - 🔄 Reconnecting in 30s...
+2026-02-25 04:56:24,913 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-25 04:56:24,959 - __main__ - INFO - ✅ WebSocket connected
+2026-02-25 04:56:24,959 - __main__ - INFO - 📤 Subscribed to 5 markets
+2026-02-25 10:13:32,149 - __main__ - INFO - 🔌 WebSocket connection closed
+2026-02-25 10:13:32,149 - __main__ - INFO - 🔄 Reconnecting in 30s...
+2026-02-25 10:14:02,149 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-25 10:14:02,196 - __main__ - INFO - ✅ WebSocket connected
+2026-02-25 10:14:02,197 - __main__ - INFO - 📤 Subscribed to 5 markets

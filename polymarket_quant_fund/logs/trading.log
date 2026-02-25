@@ -1,0 +1,4 @@
+2026-02-24 15:58:33,222 - __main__ - INFO - 🚀 Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+2026-02-24 15:58:33,325 - __main__ - INFO - ✅ WebSocket connected
+2026-02-24 15:58:33,399 - __main__ - INFO - ✅ Retrieved 5 active token IDs
+2026-02-24 15:58:33,400 - __main__ - INFO - 📤 Subscribed to 5 markets
