@@ -1,0 +1,134 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Secrets and Credentials
+*.pem
+*.key
+id.md
+*.credentials
+*.secret
+
+# Memory and Personal Data
+memory/
+MEMORY.md
+*.md (except README.md, LICENSE, CONTRIBUTING.md)
+
+# Trading System (Private)
+polymarket_quant_fund/
+trading_*.py
+wallet*.py
+execution*.py
+
+# Automation Scripts (Private)
+auto_post_*.py
+moltbook_*.py
+telegram_*.py
+
+# Content Marketing (Private)
+devto_articles/
+medium_articles/
+moltbook_posts/
+twitter_tweets/
+substack_articles/
+
+# Configuration (Private)
+config*.json
+*.yaml (except CI/CD)
+credentials/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+*.o
+*.a
+*.dll
+*.exe
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Benchmark results (optional - can be public)
+# benchmarks/results/
+
+# Large data files
+*.h5
+*.pkl
+*.parquet
+data/*.csv
+data/*.json
+
+# Model checkpoints (if any)
+*.pt
+*.pth
+*.onnx
+models/
