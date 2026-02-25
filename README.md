@@ -50,14 +50,54 @@
 
 > **Intelligence is not computed, it emerges from neural field evolution**
 
-### Key Features
+### ⚠️ Capability Boundaries (CRITICAL)
 
-| Feature | Implementation | Benefit |
-|---------|---------------|---------|
-| **Memory** | Attractors (stable patterns) | Associative retrieval, fault-tolerant |
-| **Reasoning** | Field evolution | Parallel, efficient, interpretable |
-| **Intuition** | Energy landscape | Fast judgment, insight |
-| **Learning** | Hebbian rules | Bio-plausible, online learning |
+**Neural Field is NOT a replacement for LLMs.**
+
+| Dimension | Transformer 7B | Neural Field | Fair Comparison? |
+|-----------|---------------|--------------|------------------|
+| **Expression** | Discrete tokens | Continuous states | ❌ Different |
+| **Capability** | General language / multi-task | Constrained tasks | ❌ Different |
+| **Reasoning** | Explicit computation | Dynamical evolution | ❌ Different |
+| **Parameters** | 7B (14GB) | ~1M (0.3MB) | ❌ Different scale |
+
+**Efficiency advantage is REAL, but NOT "cheaper general intelligence".**
+
+### ✅ What Neural Field IS Good At
+
+- Pattern completion (attractor dynamics)
+- Associative memory (Hebbian learning)
+- Temporal prediction (field evolution)
+- Control systems (energy minimization)
+- Low-power edge deployment
+
+### ❌ What Neural Field CANNOT Do (Yet)
+
+- General conversation
+- Abstract reasoning
+- Programming / code generation
+- Cross-domain knowledge transfer
+
+### 🔮 Future Direction: Hybrid Architecture
+
+```
+[ LLM / Transformer ]
+        ↓
+(Generates goals / programs / energy functions)
+        ↓
+[ Neural Field / Dynamics ]
+        ↓
+(Executes behavior / memory / control)
+        ↓
+[ Action / World ]
+```
+
+**Why Hybrid?**
+- ✅ LLM = High-level symbolic controller
+- ✅ Neural Field = Low-level continuous execution & memory
+- ✅ Energy efficient
+- ✅ Deployable on edge devices
+- ⚠️ Still research-stage, not production-ready
 
 ---
 
