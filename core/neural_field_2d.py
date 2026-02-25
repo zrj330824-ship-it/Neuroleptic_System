@@ -13,7 +13,8 @@ Core Features:
 
 import jax
 import jax.numpy as jnp
-from jax import jit, partial
+from jax import jit
+from functools import partial
 import numpy as np
 import time
 from typing import Tuple, Optional, Callable
@@ -163,7 +164,7 @@ def demo():
     # Create initial perturbation (Gaussian pulse)
     x = jnp.arange(100)[:, None]
     y = jnp.arange(100)[None, :]
-    initial = jnp.exp(-((x-50)**2 + **(y-50)2) / 50)
+    initial = jnp.exp(-((x-50)**2 + (y-50)**2) / 50)
     
     field.set_state(initial)
     
