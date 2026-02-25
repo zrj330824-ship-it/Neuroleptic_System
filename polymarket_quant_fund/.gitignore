@@ -1,0 +1,60 @@
+# Trading System - Sensitive Files (NEVER COMMIT)
+
+# API Keys & Secrets
+.env
+*.env
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# Cookies & Sessions
+cookies/
+*.cookie
+*.json  # All JSON files may contain sensitive data
+
+# Logs & History
+logs/
+*.log
+trading_history.json
+signal_history.json
+neural_field_signals.json
+
+# Database & Cache
+*.db
+*.sqlite
+cache/
+*.pkl
+
+# Generated Signals (real-time data)
+signals/
+pending_signals.json
+executed_trades.json
+
+# Configuration (may contain API endpoints)
+config.local.json
+*.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Neural Field State (strategy intelligence)
+attractor_states.json
+energy_landscape.json
+*.npy
+*.npz
