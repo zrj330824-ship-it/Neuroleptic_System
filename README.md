@@ -147,6 +147,9 @@ python3 -m spacy download en_core_web_sm
 
 # Run interface demo
 python3 integration/spacy_interface.py
+
+# Run complete cognitive system
+python3 integration/neural_field_system.py
 ```
 
 **What it does**:
@@ -154,6 +157,32 @@ python3 integration/spacy_interface.py
 - Neural Field → Text (decode attractors as descriptions)
 - Pattern completion (partial input → evolved output)
 - Associative memory ("bell" ↔ "food")
+
+### 🧠 Complete System (Neural Field System)
+
+```python
+from integration.neural_field_system import NeuralFieldSystem
+
+brain = NeuralFieldSystem()
+
+# Learning (forming attractors)
+brain.see("The cat sits on the mat")
+brain.think(steps=50)
+brain.learn()
+
+# Recognition (familiar vs novel)
+energy, status = brain.recognize("A cat on a mat")
+# → (low_energy, "familiar")
+
+# Pattern completion
+result = brain.complete("The cat")
+# → System evolves to nearest attractor
+```
+
+**Architecture**:
+- **spaCy** = Sensory cortex (perception as perturbation)
+- **Neural Field** = Cortex (continuous dynamics)
+- **AttractorMemory** = Hippocampus (energy landscape)
 
 ---
 
@@ -214,6 +243,55 @@ neuro_symbolic_reasoner/
 - ⏳ Statistical significance (p-values, confidence intervals)
 
 **DO NOT cite unverified claims. Always check verification status.**
+
+---
+
+## ⚠️ Design Boundaries (CRITICAL)
+
+**This system is NOT an LLM. It follows different principles.**
+
+### Five Things We NEVER Do
+
+1. ❌ **No token → symbol → logic pipeline**
+   - Language is perturbation, not input to parse
+   - Understanding emerges from dynamics, not symbolic manipulation
+
+2. ❌ **No explicit "answer" module**
+   - System doesn't "respond" — it evolves and stabilizes
+   - Output is observed final state, not generated text
+
+3. ❌ **No attention / softmax**
+   - Attention = discrete index matching
+   - We use continuous energy descent
+
+4. ❌ **No embedding lookup tables**
+   - Embeddings = symbolic dictionary
+   - Neural Field = dictionary-free system
+   - spaCy produces perturbation directions, not vectors
+
+5. ❌ **No pursuit of "general conversation"**
+   - This system shouldn't chat, code, or explain itself
+   - Strengths: stability, energy efficiency, embodied learning, long-term consistency
+
+### What This System IS
+
+✅ **Continuous Cognitive Dynamics**
+- Perception = state perturbation
+- Cognition = field evolution
+- Memory = energy landscape
+
+✅ **Embodied Perception**
+- spaCy = sensory cortex (not external tool)
+- Language = one type of perturbation among many
+
+✅ **Attractor-Based Memory**
+- Remembering = changing energy terrain
+- Recalling = returning to basin of attraction
+
+✅ **Timescale Separation**
+- Fast (τ=0.1): Sensory decay
+- Slow (τ=1.0): Cognitive evolution
+- Ultra-slow (τ=10.0): Memory consolidation
 
 ---
 
