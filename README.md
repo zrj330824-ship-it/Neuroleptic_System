@@ -360,6 +360,64 @@ After recall:    E = 0.10 (ΔE = +83.94 descent!)
 
 ---
 
+## 🔄 Active Perception Loop
+
+### Complete Architecture
+
+```
+[ Motor Cortex ] → Action → Environment
+      ↑                          ↓
+      │                    (Feedback)
+      │                          ↓
+[ Neural Field ] ← Perturbation ← Sensory
+      │
+      ↓
+[ Attractor Memory ]
+```
+
+### Components
+
+| Component | Function | Biological Analog |
+|-----------|----------|-------------------|
+| **SensoryCortex** | Text → Perturbation | Sensory cortex (V1, A1) |
+| **AttentionMechanism** | Spatial modulation | Parietal attention |
+| **NeuralField** | Continuous dynamics | Prefrontal cortex |
+| **MotorCortex** | State → Action | Motor cortex |
+| **Environment** | Action → Feedback | World interaction |
+| **AttractorMemory** | Energy landscape | Hippocampus |
+
+### Timescales
+
+| Timescale | τ | Process |
+|-----------|---|---------|
+| **Fast** | 0.1 | Sensory perturbation |
+| **Slow** | 1.0 | Field dynamics |
+| **Ultra-slow** | 10.0 | Memory consolidation |
+
+### Verified Capabilities
+
+✅ **Active Attention** — System decides where to look  
+✅ **Action Generation** — Field state → behavior  
+✅ **Closed-Loop Learning** — Action → feedback → memory  
+✅ **Energy Convergence** — ΔE = +11223 (recovery from noise)
+
+### Usage
+
+```python
+from integration.active_perception_loop import ActivePerceptionSystem
+
+system = ActivePerceptionSystem()
+
+# Learn actions
+system.perceive("approach positive")
+system.learn_action("approach")
+
+# Active exploration
+results = system.explore(n_steps=10)
+```
+
+---
+
 ## 📄 License
 
 MIT License - Copyright (c) 2026 Neural Field Lab
