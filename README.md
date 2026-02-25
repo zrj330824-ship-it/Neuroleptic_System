@@ -20,14 +20,18 @@
 
 ---
 
-## 🚀 Core Advantage
+## 🚀 Core Advantage (Preliminary - Under Verification)
 
-| Metric | Transformer (7B) | Neuroleptic | **Improvement** |
-|--------|-----------------|-------------|-----------------|
-| **VRAM** | 14GB | **0.5GB** | **28x** ✅ |
-| **Speed** | 30 token/s | **300+ step/s** | **10x** ✅ |
-| **Power** | 100W+ | **5-10W** | **20x** ✅ |
-| **Edge** | ❌ Cloud | ✅ **Local** | **Revolutionary** ✅ |
+**⚠️ The following comparisons are preliminary estimates. Fair benchmark results coming soon.**
+
+| Metric | Neuroleptic (Verified CPU) | Expected GPU | Target Advantage |
+|--------|---------------------------|--------------|------------------|
+| **VRAM** | ~200MB (200x200 grid) | ~200MB | 70x vs 14GB LLM |
+| **Speed** | 185 steps/sec | 5000+ steps/sec | 10-50x vs LLM |
+| **Power** | ~5-10W | ~5-10W | 10-20x vs 100W+ LLM |
+| **Edge** | ✅ **Local** | ✅ **Local** | Revolutionary |
+
+**🧪 Formal benchmark in progress. Results will be published after verification (N≥5, fair comparison).**
 
 ---
 
