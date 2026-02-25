@@ -17,8 +17,10 @@ Key Principles:
 """
 
 import numpy as np
-import spacy
 from typing import List, Tuple
+
+# Import dual-mode sensory cortex
+from sensory_cortex import SensoryCortex
 
 
 class NeuralField:
@@ -134,10 +136,10 @@ class NeuralFieldSystem:
     5. ❌ General conversation
     """
     
-    def __init__(self, size: int = 64, spacy_model: str = "en_core_web_sm"):
+    def __init__(self, size: int = 64, perception_mode: str = "spacy"):
         self.field = NeuralField(size=size)
         self.memory = AttractorMemory(capacity=10)
-        self.perception = spacy.load(spacy_model)
+        self.perception = SensoryCortex(mode=perception_mode, field_size=size)
         
         # Timescale parameters
         self.tau_perception = 0.1   # Fast: sensory decay
@@ -151,19 +153,11 @@ class NeuralFieldSystem:
         NOT: parse → understand → store
         BUT: perturb → self-organize → stabilize
         """
-        doc = self.perception(text)
-        
-        # Create perturbation from linguistic features
-        perturb = np.zeros_like(self.field.state)
-        
-        for token in doc:
-            x = hash(token.lemma_) % self.field.size
-            y = hash(token.pos_) % self.field.size
-            strength = 1.0 / (1.0 + len(token.dep_))
-            perturb[x, y] += strength
+        # Use sensory cortex (dual-mode)
+        perturbation = self.perception.perceive(text)
         
         # Inject perturbation (fast timescale)
-        self.field.evolve(steps=10, perturbation=perturb, tau=self.tau_perception)
+        self.field.evolve(steps=10, perturbation=perturbation, tau=self.tau_perception)
         
         return self.field.state
     
@@ -229,8 +223,9 @@ def demo():
     print("🧠 Neural Field System - Minimal Viable Version")
     print("="*60)
     
-    # Create system
-    brain = NeuralFieldSystem(size=64)
+    # Create system with dual-mode perception
+    print("\n👁️ Perception Mode: spaCy (development)")
+    brain = NeuralFieldSystem(size=64, perception_mode="spacy")
     
     # ===== Phase 1: Learning =====
     print("\n📚 Phase 1: Learning (Forming attractors)")
@@ -296,6 +291,13 @@ def demo():
     print("   • Language = perturbation (NOT input format)")
     print("   • Memory = energy landscape (NOT vector storage)")
     print("   • Understanding = attractor convergence (NOT decoding)")
+    # Demo lightweight mode
+    print("\n\n🟢 Testing Lightweight Mode:")
+    brain_light = NeuralFieldSystem(size=64, perception_mode="lightweight")
+    brain_light.see("The cat sits")
+    brain_light.think(30)
+    print(f"   ✓ Lightweight perception working")
+    
     print("\n⚠️ This system NEVER:")
     print("   1. ❌ Token → symbol → logic")
     print("   2. ❌ Explicit 'answer' module")
