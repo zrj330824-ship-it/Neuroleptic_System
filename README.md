@@ -160,23 +160,19 @@ python3 integration/neural_field_system.py
 
 ### 🧠 Complete System (Neural Field System)
 
+**Full version** (production-ready):
 ```python
 from integration.neural_field_system import NeuralFieldSystem
 
 brain = NeuralFieldSystem()
-
-# Learning (forming attractors)
 brain.see("The cat sits on the mat")
 brain.think(steps=50)
 brain.learn()
+```
 
-# Recognition (familiar vs novel)
-energy, status = brain.recognize("A cat on a mat")
-# → (low_energy, "familiar")
-
-# Pattern completion
-result = brain.complete("The cat")
-# → System evolves to nearest attractor
+**Minimal version** (clean reference):
+```bash
+python3 integration/neural_field_system_minimal.py
 ```
 
 **Architecture**:
