@@ -1,0 +1,12 @@
+# Core dependencies
+jax>=0.4.20
+jaxlib>=0.4.20
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional (for advanced features)
+# dgl>=1.0.0  # Graph neural networks
+# ray[rl]>=2.0.0  # Reinforcement learning
+# dowhy>=0.10.0  # Causal inference
