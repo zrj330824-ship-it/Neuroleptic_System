@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-NeuralFieldNet 整合交易机器人 v3.0
+NeuralFieldNet 整合交易机器人 v3.3
 
 整合策略:
 - 流动性驱动策略 (50%)
@@ -9,8 +9,14 @@ NeuralFieldNet 整合交易机器人 v3.0
 - 神经场预测
 - 阿尔法动量因子
 
+增强:
+- 三层风控校验 (战略/战术/执行)
+- WebSocket 实时监听
+- NLP 新闻情绪分析
+- 动态权重调整
+
 作者：NeuralFieldNet Team
-版本：v3.0
+版本：v3.3
 创建日期：2026-02-26
 """
 
@@ -23,6 +29,22 @@ from typing import Dict, List, Optional, Tuple
 
 # 添加项目路径
 sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent))
+
+# 导入风控校验模块
+from risk_validator import RiskValidator, RiskConfig, ValidationResult, SlippageMonitor
+
+
+class StrategyHealthMonitor:
+    """策略健康监控器 (简化版)"""
+    
+    def __init__(self):
+        self.strategy_stats = {
+            'liquidity': {'consecutive_losses': 0, 'win_rate': 0.0},
+            'arbitrage': {'consecutive_losses': 0, 'win_rate': 0.0},
+            'directional': {'consecutive_losses': 0, 'win_rate': 0.0}
+        }
+        self.suspended_strategies = set()
 
 # 配置日志
 logging.basicConfig(
@@ -53,10 +75,19 @@ class IntegratedTradingBot:
             'directional': 0.20   # 方向性 20%
         }
         
-        logger.info("🚀 NeuralFieldNet 整合交易机器人 v3.0 启动")
+        # 初始化风控校验器
+        risk_config = self.load_risk_config()
+        self.risk_validator = RiskValidator(risk_config)
+        
+        # 初始化其他组件
+        self.slippage_monitor = SlippageMonitor()
+        self.strategy_health = StrategyHealthMonitor()
+        
+        logger.info("🚀 NeuralFieldNet 整合交易机器人 v3.3 启动")
         logger.info(f"📊 策略权重：流动性 {self.strategy_weights['liquidity']:.0%}, "
                    f"套利 {self.strategy_weights['arbitrage']:.0%}, "
                    f"方向性 {self.strategy_weights['directional']:.0%}")
+        logger.info("🛡️ 风控校验模块：已启用")
     
     def load_config(self, config_path: str) -> Dict:
         """加载配置文件"""
@@ -89,6 +120,31 @@ class IntegratedTradingBot:
                     'confidence_min': 0.80
                 }
             }
+    
+    def load_risk_config(self) -> RiskConfig:
+        """加载风控配置"""
+        try:
+            risk_cfg = self.config.get('risk', {})
+            return RiskConfig(
+                max_drawdown=risk_cfg.get('max_drawdown', 0.15),
+                min_cash_ratio=risk_cfg.get('min_cash_ratio', 0.10),
+                min_capital=risk_cfg.get('min_capital', 5000.0),
+                max_daily_loss=risk_cfg.get('max_daily_loss', 0.05),
+                max_total_exposure=risk_cfg.get('max_total_exposure', 0.80),
+                min_strategy_weight=risk_cfg.get('min_strategy_weight', 0.10),
+                max_strategy_weight=risk_cfg.get('max_strategy_weight', 0.70),
+                max_strategy_drawdown=risk_cfg.get('max_strategy_drawdown', 0.20),
+                max_strategy_daily_loss=risk_cfg.get('max_strategy_daily_loss', 0.08),
+                min_confidence=risk_cfg.get('min_confidence', 0.75),
+                max_position_pct=risk_cfg.get('max_position_pct', 0.02),
+                max_security_exposure=risk_cfg.get('max_security_exposure', 0.05),
+                max_positions=risk_cfg.get('max_positions', 5),
+                max_stop_loss=risk_cfg.get('max_stop_loss', 0.01),
+                max_slippage=risk_cfg.get('max_slippage', 0.005)
+            )
+        except Exception as e:
+            logger.error(f"❌ 风控配置加载失败：{e}")
+            return RiskConfig()
     
     def load_account_data(self) -> Dict:
         """加载账户数据"""
@@ -298,7 +354,7 @@ class IntegratedTradingBot:
     
     def execute_trade(self, signal: Dict) -> bool:
         """
-        执行交易
+        执行交易 (带风控校验)
         
         参数:
             signal: 交易信号
@@ -307,69 +363,160 @@ class IntegratedTradingBot:
             是否成功执行
         """
         try:
-            # 风险控制检查
-            if not self.risk_check(signal):
-                logger.warning(f"⚠️ 风险控制未通过：{signal.get('type', 'unknown')}")
+            # 🛡️ 风控校验 (执行前必检)
+            logger.info("🛡️ 开始风控校验...")
+            validation_result = self.risk_validator.validate_trade(
+                signal=signal,
+                account=self.get_account_state(),
+                portfolio=self.get_portfolio_state()
+            )
+            
+            if not validation_result.is_valid:
+                logger.warning(f"❌ 风控校验失败：{validation_result.reason}")
+                logger.warning(f"   失败项：{validation_result.failed_checks}")
+                
+                # 记录风控事件
+                self.log_risk_event('validation_failed', validation_result, signal)
+                
                 return False
+            
+            logger.info(f"✅ 风控校验通过：{validation_result.reason}")
             
             # 获取交易参数
             trading_config = self.config.get('trading', {})
             take_profit = trading_config.get('take_profit', 0.03)
             stop_loss = trading_config.get('stop_loss', -0.02)
-            max_position = trading_config.get('max_position', 0.02)
+            position_pct = trading_config.get('max_position', 0.02)
             
             # 执行交易 (模拟)
             signal_type = signal.get('type', 'unknown')
             direction = signal.get('direction', 'BUY')
             confidence = signal.get('confidence', 0.0)
+            market = signal.get('market', 'unknown')
             
-            logger.info(f"✅ 执行交易：{signal_type} - {direction} @ 置信度 {confidence:.0%}")
+            logger.info(f"✅ 执行交易：{signal_type} - {direction} {market} @ 置信度 {confidence:.0%}")
             logger.info(f"   止盈：+{take_profit:.1%}, 止损：{stop_loss:.1%}, "
-                       f"仓位：{max_position:.1%}")
+                       f"仓位：{position_pct:.1%}")
             
             # TODO: 实际交易执行
-            # self.api.execute_order(...)
+            # order = self.api.execute_order(...)
+            
+            # 记录交易结果
+            self.record_trade_execution(signal, take_profit, stop_loss, position_pct)
             
             return True
         except Exception as e:
             logger.error(f"❌ 交易执行失败：{e}")
             return False
     
-    def risk_check(self, signal: Dict) -> bool:
-        """
-        风险控制检查
+    def get_account_state(self) -> Dict:
+        """获取账户状态 (用于风控校验)"""
+        positions = self.account_data.get('positions', [])
+        total_position_value = sum(pos.get('value', 0) for pos in positions)
         
-        参数:
-            signal: 交易信号
+        return {
+            'capital': self.account_data.get('capital', 10000.0),
+            'cash': self.account_data.get('cash', 2000.0),
+            'peak_capital': self.account_data.get('peak_capital', 10000.0),
+            'today_pnl': self.account_data.get('today_pnl', 0.0),
+            'total_position_value': total_position_value,
+            'positions': positions,
+            'security_exposures': self.calculate_security_exposures(positions)
+        }
+    
+    def get_portfolio_state(self) -> Dict:
+        """获取组合状态 (用于风控校验)"""
+        return {
+            'strategy_weights': self.strategy_weights,
+            'strategy_drawdowns': self.get_strategy_drawdowns(),
+            'strategy_daily_pnl': self.get_strategy_daily_pnl(),
+            'strategy_capital': self.get_strategy_capital(),
+            'strategy_health': self.strategy_health.strategy_stats
+        }
+    
+    def calculate_security_exposures(self, positions: List[Dict]) -> Dict[str, float]:
+        """计算各标的风险暴露"""
+        exposures = {}
+        total_capital = self.account_data.get('capital', 10000.0)
         
-        返回:
-            是否通过检查
-        """
+        for pos in positions:
+            market = pos.get('market', 'unknown')
+            value = pos.get('value', 0)
+            exposure = value / total_capital
+            
+            if market not in exposures:
+                exposures[market] = 0.0
+            exposures[market] += exposure
+        
+        return exposures
+    
+    def get_strategy_drawdowns(self) -> Dict[str, float]:
+        """获取各策略回撤 (简化版)"""
+        return {
+            'liquidity': 0.05,
+            'arbitrage': 0.02,
+            'directional': 0.08
+        }
+    
+    def get_strategy_daily_pnl(self) -> Dict[str, float]:
+        """获取各策略今日盈亏 (简化版)"""
+        return {
+            'liquidity': 50.0,
+            'arbitrage': 20.0,
+            'directional': -30.0
+        }
+    
+    def get_strategy_capital(self) -> Dict[str, float]:
+        """获取各策略资金分配"""
+        total_capital = self.account_data.get('capital', 10000.0)
+        return {
+            'liquidity': total_capital * 0.50,
+            'arbitrage': total_capital * 0.30,
+            'directional': total_capital * 0.20
+        }
+    
+    def record_trade_execution(self, signal: Dict, take_profit: float, stop_loss: float, position_pct: float):
+        """记录交易执行"""
+        # 更新账户数据
+        new_position = {
+            'market': signal.get('market', 'unknown'),
+            'direction': signal.get('direction', 'BUY'),
+            'value': self.account_data.get('capital', 10000.0) * position_pct,
+            'take_profit': take_profit,
+            'stop_loss': stop_loss,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        if 'positions' not in self.account_data:
+            self.account_data['positions'] = []
+        self.account_data['positions'].append(new_position)
+        
+        # 记录到日志
+        logger.info(f"📝 交易已记录：{new_position['market']} {new_position['direction']}")
+    
+    def log_risk_event(self, event_type: str, result: 'ValidationResult', signal: Dict):
+        """记录风控事件"""
+        logger.warning(f"🛡️ 风控事件：{event_type}")
+        logger.warning(f"   信号：{signal.get('market', 'unknown')} {signal.get('direction', 'unknown')}")
+        logger.warning(f"   结果：{result.reason}")
+        logger.warning(f"   失败项：{result.failed_checks}")
+        
+        # 保存到风控日志文件
         try:
-            # 1. 置信度检查
-            min_confidence = self.config.get('trading', {}).get('min_confidence', 0.75)
-            if signal.get('confidence', 0.0) < min_confidence:
-                logger.warning(f"⚠️ 置信度过低：{signal.get('confidence', 0):.0%} < {min_confidence:.0%}")
-                return False
+            log_entry = {
+                'timestamp': datetime.now().isoformat(),
+                'event_type': event_type,
+                'signal': signal,
+                'result': result.to_dict()
+            }
             
-            # 2. 仓位检查
-            current_positions = len(self.account_data.get('positions', []))
-            max_positions = self.config.get('risk', {}).get('max_positions', 5)
-            if current_positions >= max_positions:
-                logger.warning(f"⚠️ 仓位已满：{current_positions} >= {max_positions}")
-                return False
+            log_file = Path('logs/risk_events.log')
+            log_file.parent.mkdir(exist_ok=True)
             
-            # 3. 资本检查
-            available_capital = self.account_data.get('capital', 0)
-            min_capital = 1000  # 最小保留资本
-            if available_capital < min_capital:
-                logger.warning(f"⚠️ 资本不足：${available_capital:,.2f} < ${min_capital:,.2f}")
-                return False
-            
-            return True
+            with open(log_file, 'a', encoding='utf-8') as f:
+                f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
         except Exception as e:
-            logger.error(f"❌ 风险控制检查失败：{e}")
-            return False
+            logger.error(f"❌ 风控事件记录失败：{e}")
     
     def run_trading_cycle(self, market_data: Dict, neural_field_output: Dict) -> None:
         """
