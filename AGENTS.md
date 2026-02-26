@@ -5,7 +5,8 @@
 **Related Files**:
 - [MEMORY.md](MEMORY.md) - Session context
 - [PROJECTS.md](PROJECTS.md) - Project status
-- [SOUL.md](SOUL.md) - Identity & persona
+- [SOUL.md](SOUL.md) - AI personality & values (深度人格)
+- [IDENTITY.md](IDENTITY.md) - Basic identity (基本信息模板)
 - [WORKFLOW_*.md](WORKFLOW_SCIENTIFIC_INTEGRITY.md) - Workflow docs
 
 ---

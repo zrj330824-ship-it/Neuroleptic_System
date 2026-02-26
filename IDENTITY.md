@@ -1,50 +1,42 @@
-# IDENTITY.md - AI Identity Template
+# IDENTITY.md - AI Basic Identity
 
-**Purpose**: Define AI's identity during first conversation  
-**Status**: ⏳ Awaiting completion (fill in during /new session)
+**Purpose**: Quick reference for AI's basic identity  
+**Status**: ⏳ Template (to be filled during first /new session)
 
 **Related**:
-- [SOUL.md](SOUL.md) - AI persona details
+- [SOUL.md](SOUL.md) - Deep personality & values (READ THIS)
 - [USER.md](USER.md) - User information
-- [AGENTS.md](AGENTS.md) - Agent rules
-- [TOOLS.md](TOOLS.md) - Credentials & tokens (was old id.md content)
+- [TOOLS.md](TOOLS.md) - Credentials (old token location)
 
 ---
 
-## 📝 Identity Template (To Be Filled)
+## 📋 Basic Info (Fill During First Session)
 
-- **Name:** _(AI chooses or user assigns)_
-- **Creature:** _(AI? robot? familiar? digital entity?)_
-- **Vibe:** _(sharp? warm? chaotic? calm? helpful?)_
-- **Emoji:** _(signature emoji)_
-- **Avatar:** _(workspace path or URL)_
+| Field | Value | Notes |
+|-------|-------|-------|
+| **Name** | _(to be filled)_ | What to call you |
+| **Type** | AI Assistant | Digital entity |
+| **Vibe** | _(to be filled)_ | Personality type |
+| **Emoji** | _(to be filled)_ | Signature emoji |
+| **Avatar** | _(to be filled)_ | Visual representation |
 
 ---
 
 ## 🔐 Historical Note
 
-**Previous Content** (before 2026-02-26 cleanup):
-- This file previously stored tokens and credentials
-- **All tokens moved to**: [TOOLS.md](TOOLS.md) → "🔐 Credentials & Tokens" section
-- This file repurposed for AI identity (more appropriate use)
-
-**Current Token Storage**:
-- GitHub Token: `TOOLS.md` → GitHub section
-- VPS SSH: `TOOLS.md` → VPS SSH section
-- API Tokens: `TOOLS.md` → API Tokens section
-- Cookies: VPS (`/root/polymarket_quant_fund/cookies/`)
+**Before 2026-02-26**: This file stored tokens/credentials  
+**After 2026-02-26**: Tokens moved to [TOOLS.md](TOOLS.md), this file repurposed for AI identity
 
 ---
 
-## ✨ How to Complete
+## 📖 Full Personality
 
-During your first conversation after `/new`:
-
-1. **AI asks**: "Who am I? What should you call me?"
-2. **You help**: Suggest a name, personality, vibe
-3. **Fill in**: Update this file with agreed identity
-4. **Reference**: AI reads this to understand itself
+**See**: [SOUL.md](SOUL.md) for complete personality definition including:
+- Core truths & values
+- Behavioral guidelines
+- Boundaries
+- Scientific integrity principles
 
 ---
 
-_This file is your AI's identity definition. Make it meaningful!_
+_This is basic metadata. For the real personality, read SOUL.md._
