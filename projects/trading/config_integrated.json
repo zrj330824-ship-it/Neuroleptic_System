@@ -1,0 +1,70 @@
+{
+  "bot": {
+    "name": "NeuralFieldNet Integrated Trading Bot",
+    "version": "v3.0",
+    "description": "整合流动性驱动 + 套利 + 方向性 + 神经场预测",
+    "interval_seconds": 300
+  },
+  "trading": {
+    "take_profit": 0.03,
+    "stop_loss": -0.02,
+    "max_position": 0.02,
+    "min_confidence": 0.75,
+    "max_positions": 5,
+    "max_daily_trades": 20
+  },
+  "strategy_weights": {
+    "liquidity": 0.50,
+    "arbitrage": 0.30,
+    "directional": 0.20
+  },
+  "liquidity": {
+    "high_threshold": 75,
+    "medium_threshold": 50,
+    "low_threshold": 25,
+    "scoring": {
+      "volume_weight": 40,
+      "spread_weight": 30,
+      "depth_weight": 30
+    }
+  },
+  "arbitrage": {
+    "min_threshold": 0.0025,
+    "safety_margin": 1.2,
+    "max_spread": 0.05,
+    "execution_delay": 0.1
+  },
+  "directional": {
+    "trend_threshold": 0.15,
+    "confidence_min": 0.80,
+    "max_loss_per_trade": 0.05,
+    "max_drawdown": 0.15
+  },
+  "neural_field": {
+    "enabled": true,
+    "confidence_weight": 0.6,
+    "momentum_weight": 0.4,
+    "min_confidence": 0.75,
+    "energy_threshold": 0.5
+  },
+  "risk": {
+    "max_positions": 5,
+    "max_capital_per_trade": 0.02,
+    "max_total_exposure": 0.10,
+    "min_capital_reserve": 1000,
+    "daily_loss_limit": 0.05
+  },
+  "markets": {
+    "scan_list": [
+      "crypto-sports",
+      "politics-election",
+      "finance-fed",
+      "tech-ai",
+      "climate-carbon"
+    ],
+    "priority_markets": [
+      "crypto-sports",
+      "finance-fed"
+    ]
+  }
+}
