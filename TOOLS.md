@@ -38,7 +38,7 @@ Things like:
 - **Host**: 8.208.78.10 (London)
 - **User**: root
 - **Key**: `~/.ssh/vps_key`
-- **Path**: `/root/polymarket_quant_fund/`
+- **Path**: `/root/Workspace/`
 
 ### GitHub
 
@@ -53,13 +53,13 @@ Things like:
 
 ### Cookie Storage (VPS)
 
-- **Path**: `/root/polymarket_quant_fund/cookies/`
+- **Path**: `/root/Workspace/cookies/`
 - **Files**: medium.json, x.json, reddit.json, substack.json
 - **Permissions**: chmod 600
 
 ### API Tokens (.env file)
 
-- **Location**: `/root/polymarket_quant_fund/.env`
+- **Location**: `/root/Workspace/.env`
 - **Permissions**: chmod 600
 - **Never commit to Git**
 
@@ -124,5 +124,14 @@ Before ANY publication:
 
 ---
 
-*Last updated: 2026-02-25*  
+*Last updated: 2026-02-26 12:33*  
 *Next review: When credentials change*
+
+---
+
+## 📝 更新日志
+
+| 日期 | 变更 |
+|------|------|
+| 2026-02-26 12:33 | VPS 路径：`polymarket_quant_fund` → `Workspace` |
+| 2026-02-25 | 初始版本 |
