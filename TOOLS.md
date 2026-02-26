@@ -1,6 +1,17 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - Local Notes & Credentials
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+**Purpose**: Environment-specific configuration and secure credentials  
+**Security Level**: 🔐 HIGH (contains tokens - never commit to Git!)
+
+**Historical Note**:
+- **Before 2026-02-26**: Credentials stored in `IDENTITY.md` (id.md)
+- **After cleanup**: Moved to this file (more appropriate location)
+- **Old id.md**: Repurposed for AI identity definition
+
+**Related**:
+- [AGENTS.md](AGENTS.md) - Agent configuration
+- [WORKFLOW_VPS_DEPLOYMENT.md](WORKFLOW_VPS_DEPLOYMENT.md) - VPS setup
+- [IDENTITY.md](IDENTITY.md) - AI identity (old token location)
 
 **Related**:
 - [AGENTS.md](AGENTS.md) - Agent configuration
