@@ -1,6 +1,6 @@
 # MEMORY.md - Long-Term Memory (Optimized)
 
-**Last Updated**: 2026-02-25 13:25  
+**Last Updated**: 2026-02-26 09:45  
 **Read**: First 50 lines only for session startup (<3K tokens)
 
 ---
@@ -21,6 +21,35 @@
 ```
 
 **Total**: <6K tokens (2% of budget)
+
+---
+
+## 📁 File Organization Rules (刻入基因)
+
+**Golden Rule**: Root directory is ONLY for system files!
+
+**Allowed in Root**:
+- System .md files (AGENTS.md, SOUL.md, MEMORY.md, etc.)
+- WORKFLOW_*.md (4 workflow docs)
+- FILE_ORGANIZATION_RULES.md
+
+**NOT Allowed in Root**:
+- ❌ *.py files → projects/*/scripts/
+- ❌ *.sh files → projects/trading/scripts/
+- ❌ *.log files → .archive/
+- ❌ daily_plan_*.md → .archive/
+- ❌ test_*.py → .archive/
+
+**Auto-Organization**:
+- ✅ Cron runs every hour (0 * * * *)
+- ✅ Script: `projects/automation/scripts/auto_organize_workspace.py`
+- ✅ Log: `logs/auto_organize.log`
+
+**4 Core Projects**:
+1. **Trading** → `projects/trading/`
+2. **Neuroleptic** → `projects/neuroleptic/`
+3. **Content** → `projects/content/`
+4. **Automation** → `projects/automation/`
 
 ---
 
