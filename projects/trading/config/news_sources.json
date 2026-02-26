@@ -1,0 +1,41 @@
+{
+  "rss_feeds": [
+    "https://feeds.reuters.com/reuters/businessNews",
+    "https://feeds.bloomberg.com/markets/news.rss",
+    "https://rss.cnbc.com/topstories.rss",
+    "https://feeds.feedburner.com/techcrunch",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "https://cointelegraph.com/rss",
+    "https://www.theverge.com/rss/index.xml",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.politico.com/rss/politics08.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml"
+  ],
+  "categories": {
+    "finance": [
+      "https://feeds.reuters.com/reuters/businessNews",
+      "https://feeds.bloomberg.com/markets/news.rss",
+      "https://rss.cnbc.com/topstories.rss"
+    ],
+    "tech": [
+      "https://feeds.feedburner.com/techcrunch",
+      "https://www.theverge.com/rss/index.xml",
+      "https://feeds.arstechnica.com/arstechnica/index"
+    ],
+    "crypto": [
+      "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "https://cointelegraph.com/rss"
+    ],
+    "politics": [
+      "https://www.politico.com/rss/politics08.xml",
+      "https://feeds.bbci.co.uk/news/business/rss.xml"
+    ],
+    "climate": [
+      "https://www.theguardian.com/environment/climate-crisis/rss"
+    ]
+  },
+  "update_interval_seconds": 300,
+  "max_entries_per_cycle": 50,
+  "sentiment_threshold": 0.3,
+  "momentum_threshold": 0.5
+}
