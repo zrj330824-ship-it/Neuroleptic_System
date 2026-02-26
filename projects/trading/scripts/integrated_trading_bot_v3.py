@@ -204,31 +204,36 @@ class IntegratedTradingBot:
             logger.error(f"❌ 方向性信号计算失败：{e}")
             return None
     
-    def generate_liquidity_signal(self, market_data: Dict) -> Optional[Dict]:
+    def generate_liquidity_signal(self, market_data: Dict, neural_field_output: Dict) -> Optional[Dict]:
         """
-        生成流动性驱动信号
+        生成流动性驱动信号 (由 NeuralField 判断)
         
         参数:
             market_data: 市场数据
+            neural_field_output: 神经场输出 (流动性评分 + 方向)
         
         返回:
             流动性信号或 None
         """
         try:
-            liquidity_score = self.calculate_liquidity_score(market_data)
+            # 从神经场获取流动性评分
+            liquidity_score = neural_field_output.get('liquidity_score', 0.0)
             
             # 获取流动性阈值
             thresholds = self.config.get('liquidity', {})
             high_threshold = thresholds.get('high_threshold', 75)
             
             if liquidity_score >= high_threshold:
-                # 流动性高，可以交易
+                # 神经场判断流动性高，可以交易
                 price = market_data.get('price', 0.5)
-                volume = market_data.get('volume', 0)
                 
-                # 判断方向 (简化版，实际应该用神经场)
-                direction = 'BUY' if price < 0.5 else 'SELL'
-                confidence = min(0.90, 0.60 + liquidity_score / 200)
+                # 方向由神经场决定
+                nf_direction = neural_field_output.get('direction', 0)
+                direction = 'BUY' if nf_direction > 0 else 'SELL'
+                
+                # 置信度 = 神经场置信度 + 流动性加分
+                nf_confidence = neural_field_output.get('confidence', 0.0)
+                confidence = min(0.95, nf_confidence + liquidity_score / 200)
                 
                 return {
                     'type': 'liquidity',
@@ -236,7 +241,7 @@ class IntegratedTradingBot:
                     'confidence': confidence,
                     'liquidity_score': liquidity_score,
                     'price': price,
-                    'volume': volume
+                    'neural_field_driven': True  # 标记为神经场驱动
                 }
             
             return None
@@ -372,22 +377,26 @@ class IntegratedTradingBot:
         
         参数:
             market_data: 市场数据
-            neural_field_output: 神经场预测结果
+            neural_field_output: 神经场输出 (统一决策源)
         """
         try:
             logger.info("=" * 60)
             logger.info("🔄 开始交易周期")
             logger.info(f"📊 扫描市场：{market_data.get('market', 'unknown')}")
+            logger.info(f"🧠 NeuralField 输出：流动性={neural_field_output.get('liquidity_score', 0):.1f}, "
+                       f"方向={neural_field_output.get('direction', 0)}, "
+                       f"置信度={neural_field_output.get('confidence', 0):.0%}")
             
             # 1. 生成各策略信号
-            liquidity_signal = self.generate_liquidity_signal(market_data)
+            # 流动性信号 (由 NeuralField 判断)
+            liquidity_signal = self.generate_liquidity_signal(market_data, neural_field_output)
             
-            # 套利信号 (需要 YES 和 NO 价格)
+            # 套利信号 (需要 YES 和 NO 价格) - 独立于 NeuralField
             yes_price = market_data.get('yes_price', 0.5)
             no_price = market_data.get('no_price', 0.5)
             arbitrage_signal = self.calculate_arbitrage_opportunity(yes_price, no_price)
             
-            # 方向性信号
+            # 方向性信号 (由 NeuralField 判断)
             directional_signal = self.calculate_directional_signal(market_data, neural_field_output)
             
             # 2. 整合信号
@@ -438,10 +447,14 @@ class IntegratedTradingBot:
                 }
                 
                 # 模拟神经场输出 (实际应该调用神经场模块)
+                # NeuralField 是唯一决策源：判断流动性 + 方向 + 置信度
                 neural_field_output = {
-                    'confidence': 0.87,
-                    'direction': 1,  # 1=上涨，-1=下跌
-                    'energy': 0.65
+                    'liquidity_score': 82.5,  # 流动性评分 (0-100)
+                    'direction': 1,           # 方向：1=上涨，-1=下跌，0=观望
+                    'confidence': 0.87,       # 置信度 (0-1)
+                    'energy': 0.65,           # 神经场能量
+                    'momentum': 0.18,         # 动量因子
+                    'attractor_state': 'bull' # attractor 状态：bull/bear/neutral
                 }
                 
                 # 运行交易周期
