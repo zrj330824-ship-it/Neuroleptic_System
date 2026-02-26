@@ -2,6 +2,12 @@
 
 **Token Budget**: 262,144 tokens/session — Use Wisely!
 
+**Related Files**:
+- [MEMORY.md](MEMORY.md) - Session context
+- [PROJECTS.md](PROJECTS.md) - Project status
+- [SOUL.md](SOUL.md) - Identity & persona
+- [WORKFLOW_*.md](WORKFLOW_SCIENTIFIC_INTEGRITY.md) - Workflow docs
+
 ---
 
 ## 🚨 Every Session (FIRST 2 MINUTES) ⭐⭐⭐⭐⭐

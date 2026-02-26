@@ -1,5 +1,13 @@
-# HEARTBEAT.md
+# HEARTBEAT.md - Periodic Tasks
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+**Related**: [MEMORY.md](MEMORY.md) - Session memory
 
-# Add tasks below when you want the agent to check something periodically.
+---
+
+# Tasks
+
+*None currently*
+
+---
+
+**Note**: Keep empty to skip heartbeat API calls.

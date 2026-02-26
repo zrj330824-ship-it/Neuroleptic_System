@@ -3,6 +3,11 @@
 **Last Updated**: 2026-02-26 09:45  
 **Read**: First 50 lines only for session startup (<3K tokens)
 
+**Related**:
+- [AGENTS.md](AGENTS.md) - Core rules
+- [PROJECTS.md](PROJECTS.md) - Project overview
+- [FILE_ORGANIZATION_RULES.md](FILE_ORGANIZATION_RULES.md) - File rules
+
 ---
 
 ## 🚨 Session Startup (刻入基因) ⭐⭐⭐⭐⭐

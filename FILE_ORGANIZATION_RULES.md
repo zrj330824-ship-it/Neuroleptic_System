@@ -4,6 +4,11 @@
 **Effective**: 2026-02-26  
 **Enforcement**: Automatic + Manual
 
+**Related**:
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick reference card
+- [WORKSPACE_STRUCTURE.md](WORKSPACE_STRUCTURE.md) - Complete structure guide
+- [MEMORY.md](MEMORY.md) - AI memory (rules embedded)
+
 ---
 
 ## 🎯 Golden Rule

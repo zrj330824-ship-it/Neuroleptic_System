@@ -2,6 +2,9 @@
 
 **Print this and keep it handy!**
 
+**Full Documentation**: [FILE_ORGANIZATION_RULES.md](FILE_ORGANIZATION_RULES.md)  
+**Structure Guide**: [WORKSPACE_STRUCTURE.md](WORKSPACE_STRUCTURE.md)
+
 ---
 
 ## 🎯 Golden Rule

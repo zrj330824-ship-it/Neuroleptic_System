@@ -2,6 +2,10 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+**Related**:
+- [AGENTS.md](AGENTS.md) - Agent configuration
+- [WORKFLOW_VPS_DEPLOYMENT.md](WORKFLOW_VPS_DEPLOYMENT.md) - VPS setup
+
 ## What Goes Here
 
 Things like:

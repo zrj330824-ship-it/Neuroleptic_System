@@ -3,6 +3,11 @@
 **Last Updated**: 2026-02-26  
 **Status**: ✅ Organized
 
+**Related**:
+- [AGENTS.md](AGENTS.md) - Agent configuration
+- [WORKSPACE_STRUCTURE.md](WORKSPACE_STRUCTURE.md) - Workspace layout
+- [projects/*/README.md](projects/trading/README.md) - Project READMEs
+
 ---
 
 ## 🎯 4 Core Projects

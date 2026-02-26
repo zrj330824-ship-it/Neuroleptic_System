@@ -3,6 +3,11 @@
 **Last Organized**: 2026-02-26  
 **Status**: ✅ Clean & Organized
 
+**Related**:
+- [FILE_ORGANIZATION_RULES.md](FILE_ORGANIZATION_RULES.md) - Organization rules
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick reference
+- [PROJECTS.md](PROJECTS.md) - Project overview
+
 ---
 
 ## 🎯 4 Core Projects
