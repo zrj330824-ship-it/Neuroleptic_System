@@ -1,0 +1,1002 @@
+[
+  {
+    "timestamp": "2026-02-25T00:00:00",
+    "market_data": {
+      "price_change_pct": 0.9934283060224653,
+      "volume_ratio": 1.975118540318174,
+      "spread_pct": 0.27388276613278595
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.624074561769746
+  },
+  {
+    "timestamp": "2026-02-25T01:00:00",
+    "market_data": {
+      "price_change_pct": -0.2765286023423693,
+      "volume_ratio": 0.25439443787190774,
+      "spread_pct": 0.0179516305826042
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.7323522915498704
+  },
+  {
+    "timestamp": "2026-02-25T02:00:00",
+    "market_data": {
+      "price_change_pct": 3.158425631014783,
+      "volume_ratio": 0.031198961998707933,
+      "spread_pct": 1.0510672425474936
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.329770563201687
+  },
+  {
+    "timestamp": "2026-02-25T03:00:00",
+    "market_data": {
+      "price_change_pct": 1.5348694583058176,
+      "volume_ratio": 0.3580314378734205,
+      "spread_pct": 0.06020369662489901
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.7336180394137353
+  },
+  {
+    "timestamp": "2026-02-25T04:00:00",
+    "market_data": {
+      "price_change_pct": 0.48392454313206823,
+      "volume_ratio": 0.8483056001705049,
+      "spread_pct": 0.10326689776618245
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.22370578944475894
+  },
+  {
+    "timestamp": "2026-02-25T05:00:00",
+    "market_data": {
+      "price_change_pct": -3.826560489315596,
+      "volume_ratio": 0.225351793091008,
+      "spread_pct": 0.10365465360072068
+    },
+    "outcome": -1.0,
+    "profit_pct": -3.534552626825233
+  },
+  {
+    "timestamp": "2026-02-25T06:00:00",
+    "market_data": {
+      "price_change_pct": 2.931297537843108,
+      "volume_ratio": 0.3341037931930354,
+      "spread_pct": 0.2166087465099383
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.36965827544817
+  },
+  {
+    "timestamp": "2026-02-25T07:00:00",
+    "market_data": {
+      "price_change_pct": -0.4515526009730713,
+      "volume_ratio": 0.07134577463461282,
+      "spread_pct": 0.280599906194883
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.317903505250834
+  },
+  {
+    "timestamp": "2026-02-25T08:00:00",
+    "market_data": {
+      "price_change_pct": -1.20127737983761,
+      "volume_ratio": 1.7291261446479926,
+      "spread_pct": 0.1740272527756195
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.7559235303104423
+  },
+  {
+    "timestamp": "2026-02-25T09:00:00",
+    "market_data": {
+      "price_change_pct": -0.5833874995865536,
+      "volume_ratio": 1.0253208422012252,
+      "spread_pct": 0.010498116433043726
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.8186408041575641
+  },
+  {
+    "timestamp": "2026-02-25T10:00:00",
+    "market_data": {
+      "price_change_pct": 1.645089824206378,
+      "volume_ratio": 0.5603198724864356,
+      "spread_pct": 0.22023326877276858
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.1868411173731186
+  },
+  {
+    "timestamp": "2026-02-25T11:00:00",
+    "market_data": {
+      "price_change_pct": -2.4416872999420445,
+      "volume_ratio": 0.3065828992618586,
+      "spread_pct": 1.047842139820868
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.8994687065555418
+  },
+  {
+    "timestamp": "2026-02-25T12:00:00",
+    "market_data": {
+      "price_change_pct": 1.4769331599908209,
+      "volume_ratio": 0.13898318842967344,
+      "spread_pct": 0.06544040838938023
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.9095454221789239
+  },
+  {
+    "timestamp": "2026-02-25T13:00:00",
+    "market_data": {
+      "price_change_pct": 0.342736562379941,
+      "volume_ratio": 0.5902981302046302,
+      "spread_pct": 0.14763908753826557
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.4573019364522082
+  },
+  {
+    "timestamp": "2026-02-25T14:00:00",
+    "market_data": {
+      "price_change_pct": -0.921277541919575,
+      "volume_ratio": 0.4947042602013738,
+      "spread_pct": 0.23472212496232378
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.436303100100949
+  },
+  {
+    "timestamp": "2026-02-25T15:00:00",
+    "market_data": {
+      "price_change_pct": 2.1142444524378314,
+      "volume_ratio": 2.430725393662097,
+      "spread_pct": 0.0232427606433927
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.947547746402069
+  },
+  {
+    "timestamp": "2026-02-25T16:00:00",
+    "market_data": {
+      "price_change_pct": -1.3538440006119175,
+      "volume_ratio": 0.008306130563903212,
+      "spread_pct": 0.5069690332458378
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.1725706246095315
+  },
+  {
+    "timestamp": "2026-02-25T17:00:00",
+    "market_data": {
+      "price_change_pct": 1.2233525776817358,
+      "volume_ratio": 1.9584943631819984,
+      "spread_pct": 0.44256435781305403
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.2961786069363614
+  },
+  {
+    "timestamp": "2026-02-25T18:00:00",
+    "market_data": {
+      "price_change_pct": -1.678435046445277,
+      "volume_ratio": 2.982794357487334,
+      "spread_pct": 0.29289035751371223
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.3382039502947016
+  },
+  {
+    "timestamp": "2026-02-25T19:00:00",
+    "market_data": {
+      "price_change_pct": -0.6184247517024292,
+      "volume_ratio": 0.09850209870717433,
+      "spread_pct": 0.11174650512310612
+    },
+    "outcome": -1.0,
+    "profit_pct": -3.699266711893012
+  },
+  {
+    "timestamp": "2026-02-25T20:00:00",
+    "market_data": {
+      "price_change_pct": 1.625051644788396,
+      "volume_ratio": 3.273377868602272,
+      "spread_pct": 0.19171984001289294
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.4783769837532068
+  },
+  {
+    "timestamp": "2026-02-25T21:00:00",
+    "market_data": {
+      "price_change_pct": 2.712480057141646,
+      "volume_ratio": 1.873689516474899,
+      "spread_pct": 0.4291178259230592
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.245108790277985
+  },
+  {
+    "timestamp": "2026-02-25T22:00:00",
+    "market_data": {
+      "price_change_pct": -0.07165207821990308,
+      "volume_ratio": 1.1095182581659007,
+      "spread_pct": 0.1673442581725282
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.9491617465118096
+  },
+  {
+    "timestamp": "2026-02-25T23:00:00",
+    "market_data": {
+      "price_change_pct": 3.1292873116280124,
+      "volume_ratio": 0.17125115278779876,
+      "spread_pct": 0.009580104387916146
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.5456416450551216
+  },
+  {
+    "timestamp": "2026-02-26T00:00:00",
+    "market_data": {
+      "price_change_pct": 0.1835215530710046,
+      "volume_ratio": 3.571898294768963,
+      "spread_pct": 0.08602164689498949
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.641531692142519
+  },
+  {
+    "timestamp": "2026-02-26T01:00:00",
+    "market_data": {
+      "price_change_pct": -3.9751378292017856,
+      "volume_ratio": 2.113123721307875,
+      "spread_pct": 0.0779415470752182
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.6920803606848285
+  },
+  {
+    "timestamp": "2026-02-26T02:00:00",
+    "market_data": {
+      "price_change_pct": -1.6169872057863752,
+      "volume_ratio": 3.982425128820937,
+      "spread_pct": 0.4952661241453708
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.26680751302084693
+  },
+  {
+    "timestamp": "2026-02-26T03:00:00",
+    "market_data": {
+      "price_change_pct": -1.003514087169073,
+      "volume_ratio": 3.07727959578122,
+      "spread_pct": 0.4883906822221669
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.6268598822279283
+  },
+  {
+    "timestamp": "2026-02-26T04:00:00",
+    "market_data": {
+      "price_change_pct": 0.19415509869608077,
+      "volume_ratio": 2.4710224369553493,
+      "spread_pct": 0.6792727947858693
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.36399305005627225
+  },
+  {
+    "timestamp": "2026-02-26T05:00:00",
+    "market_data": {
+      "price_change_pct": 1.9372899810657784,
+      "volume_ratio": 0.17488824018577626,
+      "spread_pct": 0.0776060238418144
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.7084311545050253
+  },
+  {
+    "timestamp": "2026-02-26T06:00:00",
+    "market_data": {
+      "price_change_pct": 0.5922405541291521,
+      "volume_ratio": 0.01046461377247597,
+      "spread_pct": 0.21446284780156671
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.16517799370244202
+  },
+  {
+    "timestamp": "2026-02-26T07:00:00",
+    "market_data": {
+      "price_change_pct": 0.5221105443597787,
+      "volume_ratio": 0.37675100741373674,
+      "spread_pct": 0.03830411746369404
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.3247696571927441
+  },
+  {
+    "timestamp": "2026-02-26T08:00:00",
+    "market_data": {
+      "price_change_pct": -0.32257142333201827,
+      "volume_ratio": 1.0971792086402279,
+      "spread_pct": 0.36422609306425646
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.27274079524141204
+  },
+  {
+    "timestamp": "2026-02-26T09:00:00",
+    "market_data": {
+      "price_change_pct": 0.8081017136290768,
+      "volume_ratio": 5.3516972074375495,
+      "spread_pct": 0.9846029593624194
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.0071291833014566
+  },
+  {
+    "timestamp": "2026-02-26T10:00:00",
+    "market_data": {
+      "price_change_pct": -3.837542430598083,
+      "volume_ratio": 0.5028745145716226,
+      "spread_pct": 0.011275343329656759
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.5617426640804126
+  },
+  {
+    "timestamp": "2026-02-26T11:00:00",
+    "market_data": {
+      "price_change_pct": -0.053027750898433756,
+      "volume_ratio": 1.0477794492444577,
+      "spread_pct": 0.015855326214117744
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.44270707152677713
+  },
+  {
+    "timestamp": "2026-02-26T12:00:00",
+    "market_data": {
+      "price_change_pct": -0.38472192956224505,
+      "volume_ratio": 0.23479629147820463,
+      "spread_pct": 0.20168163284209087
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.9713009082212014
+  },
+  {
+    "timestamp": "2026-02-26T13:00:00",
+    "market_data": {
+      "price_change_pct": 0.6030946846672249,
+      "volume_ratio": 0.4157172203395893,
+      "spread_pct": 0.334546503089188
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.5232392306574352
+  },
+  {
+    "timestamp": "2026-02-26T14:00:00",
+    "market_data": {
+      "price_change_pct": 1.5820638940860938,
+      "volume_ratio": 0.687784198896456,
+      "spread_pct": 0.3001511243195314
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.534118843043579
+  },
+  {
+    "timestamp": "2026-02-26T15:00:00",
+    "market_data": {
+      "price_change_pct": -1.8187749095894779,
+      "volume_ratio": 1.1510778749285233,
+      "spread_pct": 0.028388747643486284
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.6587900176430481
+  },
+  {
+    "timestamp": "2026-02-26T16:00:00",
+    "market_data": {
+      "price_change_pct": -1.9810726502613767,
+      "volume_ratio": 0.062444639691517805,
+      "spread_pct": 0.26813352137837504
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.2897425526308703
+  },
+  {
+    "timestamp": "2026-02-26T17:00:00",
+    "market_data": {
+      "price_change_pct": -1.1325954592055438,
+      "volume_ratio": 0.025090421337705927,
+      "spread_pct": 0.2152891753648465
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.094016899208248
+  },
+  {
+    "timestamp": "2026-02-26T18:00:00",
+    "market_data": {
+      "price_change_pct": -2.1246074274522098,
+      "volume_ratio": 1.7613187913515786,
+      "spread_pct": 0.14668761029433053
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.253080045053062
+  },
+  {
+    "timestamp": "2026-02-26T19:00:00",
+    "market_data": {
+      "price_change_pct": 0.9471848612703632,
+      "volume_ratio": 0.22191662015891842,
+      "spread_pct": 0.1251397301985515
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.7730529575188219
+  },
+  {
+    "timestamp": "2026-02-26T20:00:00",
+    "market_data": {
+      "price_change_pct": 1.6270344347393395,
+      "volume_ratio": 2.549226108958832,
+      "spread_pct": 0.24303970820595241
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.118602313424026
+  },
+  {
+    "timestamp": "2026-02-26T21:00:00",
+    "market_data": {
+      "price_change_pct": -2.4617286328679104,
+      "volume_ratio": 0.4153155681568547,
+      "spread_pct": 0.029317842142482217
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.411136968186693
+  },
+  {
+    "timestamp": "2026-02-26T22:00:00",
+    "market_data": {
+      "price_change_pct": 0.5197655884968471,
+      "volume_ratio": 0.6210697647169858,
+      "spread_pct": 0.12887028474349319
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.45191135774047875
+  },
+  {
+    "timestamp": "2026-02-26T23:00:00",
+    "market_data": {
+      "price_change_pct": 1.5636457435546207,
+      "volume_ratio": 3.411146023660878,
+      "spread_pct": 0.654339770818984
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.1195021834304955
+  },
+  {
+    "timestamp": "2026-02-27T00:00:00",
+    "market_data": {
+      "price_change_pct": -1.3600494431569816,
+      "volume_ratio": 0.2644413220251173,
+      "spread_pct": 0.6864691500532517
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.5742837613616403
+  },
+  {
+    "timestamp": "2026-02-27T01:00:00",
+    "market_data": {
+      "price_change_pct": 0.4645073943220071,
+      "volume_ratio": 0.013859408416491614,
+      "spread_pct": 0.0320990704307848
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.3270035382161116
+  },
+  {
+    "timestamp": "2026-02-27T02:00:00",
+    "market_data": {
+      "price_change_pct": 3.731549022289513,
+      "volume_ratio": 1.583162223202873,
+      "spread_pct": 0.07618496019240735
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.8487168853901434
+  },
+  {
+    "timestamp": "2026-02-27T03:00:00",
+    "market_data": {
+      "price_change_pct": 0.947665841823575,
+      "volume_ratio": 0.40623563857920886,
+      "spread_pct": 0.11809047267542533
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.4929828102360483
+  },
+  {
+    "timestamp": "2026-02-27T04:00:00",
+    "market_data": {
+      "price_change_pct": 1.9267522584886436,
+      "volume_ratio": 1.6077199322546436,
+      "spread_pct": 0.2520132916761772
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.37469907131237
+  },
+  {
+    "timestamp": "2026-02-27T05:00:00",
+    "market_data": {
+      "price_change_pct": 0.8255618538729966,
+      "volume_ratio": 0.6876244608105301,
+      "spread_pct": 0.09244804435764935
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.5120207132418328
+  },
+  {
+    "timestamp": "2026-02-27T06:00:00",
+    "market_data": {
+      "price_change_pct": -0.1542034188282084,
+      "volume_ratio": 3.339082816872784,
+      "spread_pct": 0.2992003157209449
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.179245214166594
+  },
+  {
+    "timestamp": "2026-02-27T07:00:00",
+    "market_data": {
+      "price_change_pct": 0.6823039496332878,
+      "volume_ratio": 1.0476529865831556,
+      "spread_pct": 0.2580467707924755
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.0149646123622722
+  },
+  {
+    "timestamp": "2026-02-27T08:00:00",
+    "market_data": {
+      "price_change_pct": 1.2513346955300124,
+      "volume_ratio": 0.4943660525493944,
+      "spread_pct": 0.007384944324206584
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.29094459181433563
+  },
+  {
+    "timestamp": "2026-02-27T09:00:00",
+    "market_data": {
+      "price_change_pct": -1.714315112832565,
+      "volume_ratio": 0.292400355337234,
+      "spread_pct": 0.8463249441819909
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.1842856919896505
+  },
+  {
+    "timestamp": "2026-02-27T10:00:00",
+    "market_data": {
+      "price_change_pct": -0.4469255706517018,
+      "volume_ratio": 0.023365973057916573,
+      "spread_pct": 0.7906570371995669
+    },
+    "outcome": -1.0,
+    "profit_pct": -3.2872634067307427
+  },
+  {
+    "timestamp": "2026-02-27T11:00:00",
+    "market_data": {
+      "price_change_pct": 1.428000988184184,
+      "volume_ratio": 5.101263024183084,
+      "spread_pct": 0.9941206428390615
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.41203782186944
+  },
+  {
+    "timestamp": "2026-02-27T12:00:00",
+    "market_data": {
+      "price_change_pct": -1.69358743613681,
+      "volume_ratio": 2.8570899787171196,
+      "spread_pct": 0.11434386942921512
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.661014506627815
+  },
+  {
+    "timestamp": "2026-02-27T13:00:00",
+    "market_data": {
+      "price_change_pct": -3.0296944493717293,
+      "volume_ratio": 1.2206054880903416,
+      "spread_pct": 0.8253880412421125
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.215880813300108
+  },
+  {
+    "timestamp": "2026-02-27T14:00:00",
+    "market_data": {
+      "price_change_pct": -1.767714872402266,
+      "volume_ratio": 1.4317960732765767,
+      "spread_pct": 1.3831709243538952
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.439663939053904
+  },
+  {
+    "timestamp": "2026-02-27T15:00:00",
+    "market_data": {
+      "price_change_pct": 0.3074502118910558,
+      "volume_ratio": 1.0957429874722555,
+      "spread_pct": 0.6295825913702383
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.4815372355084089
+  },
+  {
+    "timestamp": "2026-02-27T16:00:00",
+    "market_data": {
+      "price_change_pct": 2.166102486350554,
+      "volume_ratio": 0.6682385134724237,
+      "spread_pct": 0.10426862528012855
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.2374446219140545
+  },
+  {
+    "timestamp": "2026-02-27T17:00:00",
+    "market_data": {
+      "price_change_pct": 2.107604104069806,
+      "volume_ratio": 2.491992298630543,
+      "spread_pct": 0.6053850142103744
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.652962210225885
+  },
+  {
+    "timestamp": "2026-02-27T18:00:00",
+    "market_data": {
+      "price_change_pct": 1.0300953726120958,
+      "volume_ratio": 2.4014248984627313,
+      "spread_pct": 0.3149157224663401
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.8078675090308134
+  },
+  {
+    "timestamp": "2026-02-27T19:00:00",
+    "market_data": {
+      "price_change_pct": 7.705462981309442,
+      "volume_ratio": 2.382929212431307,
+      "spread_pct": 0.6621970429040301
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.351980627406143
+  },
+  {
+    "timestamp": "2026-02-27T20:00:00",
+    "market_data": {
+      "price_change_pct": -1.5456504290751436,
+      "volume_ratio": 1.295121039914152,
+      "spread_pct": 0.0109812312632571
+    },
+    "outcome": -1.0,
+    "profit_pct": -3.1376079274701594
+  },
+  {
+    "timestamp": "2026-02-27T21:00:00",
+    "market_data": {
+      "price_change_pct": -0.47363721348001775,
+      "volume_ratio": 1.173441878530689,
+      "spread_pct": 0.10128919809435674
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.1816665211380215
+  },
+  {
+    "timestamp": "2026-02-27T22:00:00",
+    "market_data": {
+      "price_change_pct": -0.9438637315788669,
+      "volume_ratio": 0.203833561946142,
+      "spread_pct": 0.2215960764837047
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.9200257876055566
+  },
+  {
+    "timestamp": "2026-02-27T23:00:00",
+    "market_data": {
+      "price_change_pct": 2.177901193934732,
+      "volume_ratio": 0.364677005144855,
+      "spread_pct": 0.29256588559694785
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.341389859975072
+  },
+  {
+    "timestamp": "2026-02-28T00:00:00",
+    "market_data": {
+      "price_change_pct": 0.09114367980762757,
+      "volume_ratio": 1.1668656640421133,
+      "spread_pct": 0.30436123446138474
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.4521826674453231
+  },
+  {
+    "timestamp": "2026-02-28T01:00:00",
+    "market_data": {
+      "price_change_pct": -1.3032006952116342,
+      "volume_ratio": 5.585335513049989,
+      "spread_pct": 0.21788733576910688
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.291825891764984
+  },
+  {
+    "timestamp": "2026-02-28T02:00:00",
+    "market_data": {
+      "price_change_pct": -1.323572929536776,
+      "volume_ratio": 0.866975146909952,
+      "spread_pct": 0.02451155057510097
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.8985970263381695
+  },
+  {
+    "timestamp": "2026-02-28T03:00:00",
+    "market_data": {
+      "price_change_pct": 1.704866669592448,
+      "volume_ratio": 4.931069884902903,
+      "spread_pct": 0.5423302926345187
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.783896824374792
+  },
+  {
+    "timestamp": "2026-02-28T04:00:00",
+    "market_data": {
+      "price_change_pct": -2.4005928141115525,
+      "volume_ratio": 0.2551811123592812,
+      "spread_pct": 0.08640179673797507
+    },
+    "outcome": -1.0,
+    "profit_pct": -2.803093341175518
+  },
+  {
+    "timestamp": "2026-02-28T05:00:00",
+    "market_data": {
+      "price_change_pct": -0.6690024716818967,
+      "volume_ratio": 1.8807739316651637,
+      "spread_pct": 0.32381710490903953
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.4401322061081143
+  },
+  {
+    "timestamp": "2026-02-28T06:00:00",
+    "market_data": {
+      "price_change_pct": 4.2443123940252665,
+      "volume_ratio": 0.8160567982980771,
+      "spread_pct": 0.08539838768221905
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.4238907146050463
+  },
+  {
+    "timestamp": "2026-02-28T07:00:00",
+    "market_data": {
+      "price_change_pct": 2.0649305211022937,
+      "volume_ratio": 2.1272727716350697,
+      "spread_pct": 0.004349423916241282
+    },
+    "outcome": 1.0,
+    "profit_pct": 1.464290562027665
+  },
+  {
+    "timestamp": "2026-02-28T08:00:00",
+    "market_data": {
+      "price_change_pct": 0.8876388562924569,
+      "volume_ratio": 0.9641768916193385,
+      "spread_pct": 0.030887075534343975
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.016768249766335286
+  },
+  {
+    "timestamp": "2026-02-28T09:00:00",
+    "market_data": {
+      "price_change_pct": 1.5492681068586736,
+      "volume_ratio": 0.9621754981415568,
+      "spread_pct": 0.05705841384006749
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.735406596951892
+  },
+  {
+    "timestamp": "2026-02-28T10:00:00",
+    "market_data": {
+      "price_change_pct": 3.2648226078632705,
+      "volume_ratio": 1.512171804061368,
+      "spread_pct": 0.013908697206160418
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.498450458505885
+  },
+  {
+    "timestamp": "2026-02-28T11:00:00",
+    "market_data": {
+      "price_change_pct": -2.8602827559212654,
+      "volume_ratio": 1.474687492174093,
+      "spread_pct": 0.2098318357823369
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.574040635246711
+  },
+  {
+    "timestamp": "2026-02-28T12:00:00",
+    "market_data": {
+      "price_change_pct": -1.9630173020959019,
+      "volume_ratio": 0.10977365438436126,
+      "spread_pct": 0.3085182441326673
+    },
+    "outcome": -1.0,
+    "profit_pct": -4.893954757833512
+  },
+  {
+    "timestamp": "2026-02-28T13:00:00",
+    "market_data": {
+      "price_change_pct": 0.9242069485265415,
+      "volume_ratio": 1.322021066710936,
+      "spread_pct": 0.8451766366161455
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.1509483557517579
+  },
+  {
+    "timestamp": "2026-02-28T14:00:00",
+    "market_data": {
+      "price_change_pct": 3.172033632290704,
+      "volume_ratio": 0.9194339610766369,
+      "spread_pct": 0.23664430817289603
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.765859235106101
+  },
+  {
+    "timestamp": "2026-02-28T15:00:00",
+    "market_data": {
+      "price_change_pct": -2.475630997653698,
+      "volume_ratio": 0.7318912910252807,
+      "spread_pct": 0.9747275584520261
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.378597432175745
+  },
+  {
+    "timestamp": "2026-02-28T16:00:00",
+    "market_data": {
+      "price_change_pct": 0.5619837354700653,
+      "volume_ratio": 0.11077444041964053,
+      "spread_pct": 0.11524715648846054
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.6897506219389091
+  },
+  {
+    "timestamp": "2026-02-28T17:00:00",
+    "market_data": {
+      "price_change_pct": -1.2453990396411876,
+      "volume_ratio": 0.03532050477106726,
+      "spread_pct": 0.5053591518557875
+    },
+    "outcome": -1.0,
+    "profit_pct": -3.8725809009064003
+  },
+  {
+    "timestamp": "2026-02-28T18:00:00",
+    "market_data": {
+      "price_change_pct": 0.7140309719300947,
+      "volume_ratio": 1.4870987646498304,
+      "spread_pct": 0.629824744226084
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.47014208760777154
+  },
+  {
+    "timestamp": "2026-02-28T19:00:00",
+    "market_data": {
+      "price_change_pct": -1.3858191905213084,
+      "volume_ratio": 2.4404937089909673,
+      "spread_pct": 0.09940015869202157
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.6451209124405544
+  },
+  {
+    "timestamp": "2026-02-28T20:00:00",
+    "market_data": {
+      "price_change_pct": 1.4945872102465236,
+      "volume_ratio": 6.985507335210346,
+      "spread_pct": 0.15962380624578149
+    },
+    "outcome": 1.0,
+    "profit_pct": 2.4880723431711327
+  },
+  {
+    "timestamp": "2026-02-28T21:00:00",
+    "market_data": {
+      "price_change_pct": 1.2207405308669297,
+      "volume_ratio": 2.2469317550153804,
+      "spread_pct": 0.12502010127922594
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.723029302414259
+  },
+  {
+    "timestamp": "2026-02-28T22:00:00",
+    "market_data": {
+      "price_change_pct": -0.4353624064544406,
+      "volume_ratio": 2.0846770747431917,
+      "spread_pct": 0.4213898960565051
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.7937522623281348
+  },
+  {
+    "timestamp": "2026-02-28T23:00:00",
+    "market_data": {
+      "price_change_pct": 2.19755370397438,
+      "volume_ratio": 3.492668521301448,
+      "spread_pct": 0.2111122469270263
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.305829864430967
+  },
+  {
+    "timestamp": "2026-02-29T00:00:00",
+    "market_data": {
+      "price_change_pct": 1.3639059425899278,
+      "volume_ratio": 0.7394826810902568,
+      "spread_pct": 0.0032690419845526433
+    },
+    "outcome": 1.0,
+    "profit_pct": 4.621527905677055
+  },
+  {
+    "timestamp": "2026-02-29T01:00:00",
+    "market_data": {
+      "price_change_pct": -0.6205335131869121,
+      "volume_ratio": 0.14358841582271287,
+      "spread_pct": 0.11539609001551165
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.1997521317967803
+  },
+  {
+    "timestamp": "2026-02-29T02:00:00",
+    "market_data": {
+      "price_change_pct": 0.19399192998543638,
+      "volume_ratio": 1.498845120585787,
+      "spread_pct": 0.17850439908685728
+    },
+    "outcome": 0.0,
+    "profit_pct": -0.41357845660387094
+  },
+  {
+    "timestamp": "2026-02-29T03:00:00",
+    "market_data": {
+      "price_change_pct": 1.1903140508738272,
+      "volume_ratio": 0.5977295018255846,
+      "spread_pct": 0.3348970739785519
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.50474905887536
+  }
+]

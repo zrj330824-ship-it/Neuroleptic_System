@@ -1,0 +1,54 @@
+[
+  {
+    "_comment": "CONFIDENTIAL - Fill in your REAL trade history",
+    "_instructions": [
+      "Replace this template with your actual historical trades",
+      "Each record represents one trading opportunity",
+      "Include both winning and losing trades",
+      "More data = better calibration (aim for 100+ records)"
+    ],
+    "_format": {
+      "timestamp": "ISO 8601 format (YYYY-MM-DDTHH:MM:SS)",
+      "market_data": {
+        "price_change_pct": "Price change percentage (e.g., 2.5 for +2.5%)",
+        "volume_ratio": "Volume vs average (e.g., 1.5 = 50% above average)",
+        "spread_pct": "Bid-ask spread percentage (e.g., 0.25)"
+      },
+      "outcome": "+1 = profitable, -1 = loss, 0 = neutral",
+      "profit_pct": "Actual profit/loss percentage"
+    }
+  },
+  
+  {
+    "timestamp": "2026-02-20T10:30:00",
+    "market_data": {
+      "price_change_pct": 3.5,
+      "volume_ratio": 2.5,
+      "spread_pct": 0.25
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.5
+  },
+  
+  {
+    "timestamp": "2026-02-20T14:15:00",
+    "market_data": {
+      "price_change_pct": -1.2,
+      "volume_ratio": 1.8,
+      "spread_pct": 0.35
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.2
+  },
+  
+  {
+    "timestamp": "2026-02-21T09:00:00",
+    "market_data": {
+      "price_change_pct": 0.5,
+      "volume_ratio": 0.8,
+      "spread_pct": 0.15
+    },
+    "outcome": 0.0,
+    "profit_pct": 0.5
+  }
+]

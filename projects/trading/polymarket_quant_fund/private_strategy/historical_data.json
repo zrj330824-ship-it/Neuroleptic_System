@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-02-20T12:00:00",
+    "market_data": {
+      "price_change_pct": 3.5,
+      "volume_ratio": 5.0,
+      "spread_pct": 0.25
+    },
+    "outcome": 1.0,
+    "profit_pct": 3.5
+  },
+  {
+    "timestamp": "2026-02-21T12:00:00",
+    "market_data": {
+      "price_change_pct": -1.2,
+      "volume_ratio": 3.0,
+      "spread_pct": 0.4
+    },
+    "outcome": -1.0,
+    "profit_pct": -1.2
+  }
+]

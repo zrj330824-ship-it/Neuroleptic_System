@@ -1,0 +1,6 @@
+{
+  "attractors": 8,
+  "trained_at": "2026-02-25T22:05:00",
+  "source": "paper_trading_data.json",
+  "n_trades": 8
+}

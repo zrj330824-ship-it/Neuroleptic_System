@@ -1,4 +1,4 @@
-# 🧠 Neuroleptic System - Project Memory
+# 🧠 NeuralField System - Project Memory
 
 **Last Updated**: 2026-02-25 13:06  
 **Status**: 🟢 Active (Research)  
@@ -8,7 +8,7 @@
 
 ## 📊 Current Status
 
-**GitHub**: https://github.com/zrj330824-ship-it/Neuroleptic_System  
+**GitHub**: https://github.com/zrj330824-ship-it/NeuralField_System  
 **License**: MIT (Neural Field Lab copyright)  
 **Visibility**: Public
 

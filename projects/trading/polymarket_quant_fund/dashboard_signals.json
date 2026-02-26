@@ -1,0 +1,832 @@
+{
+  "analyst": "Neural Field AI",
+  "generated_at": "2026-02-25T22:02:30.799614",
+  "total_signals": 20,
+  "signals": [
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.344025",
+      "source": "neural_field",
+      "market": "market_0",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5533283388646494,
+        "volume": 5708,
+        "spread": 0.02936782985376718
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5533283388646494,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.422964",
+      "source": "neural_field",
+      "market": "market_1",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.4005951669829589,
+        "volume": 7493,
+        "spread": 0.03354809689317666
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.4005951669829589,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.499380",
+      "source": "neural_field",
+      "market": "market_2",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.4942122620813161,
+        "volume": 2157,
+        "spread": 0.038159058634453895
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.4942122620813161,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.572278",
+      "source": "neural_field",
+      "market": "market_3",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5601997356147657,
+        "volume": 712,
+        "spread": 0.03203902515196573
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5601997356147657,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.652455",
+      "source": "neural_field",
+      "market": "market_4",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.43886512578173575,
+        "volume": 6295,
+        "spread": 0.012316220035386025
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.43886512578173575,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.730010",
+      "source": "neural_field",
+      "market": "market_0",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.4339378849497818,
+        "volume": 5588,
+        "spread": 0.01088260050618584
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.4339378849497818,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.804621",
+      "source": "neural_field",
+      "market": "market_1",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.42176625155738445,
+        "volume": 2340,
+        "spread": 0.03768535821625277
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.42176625155738445,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.879463",
+      "source": "neural_field",
+      "market": "market_2",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5299490437370934,
+        "volume": 1472,
+        "spread": 0.026170461821521315
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5299490437370934,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220229",
+      "timestamp": "2026-02-25T22:02:29.966582",
+      "source": "neural_field",
+      "market": "market_3",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5781466299757861,
+        "volume": 1251,
+        "spread": 0.026605049066702982
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5781466299757861,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.041763",
+      "source": "neural_field",
+      "market": "market_4",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.40051533440460096,
+        "volume": 1977,
+        "spread": 0.04869414791690728
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.40051533440460096,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.118814",
+      "source": "neural_field",
+      "market": "market_0",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5089370049427125,
+        "volume": 6830,
+        "spread": 0.011231605344230445
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5089370049427125,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.193096",
+      "source": "neural_field",
+      "market": "market_1",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5000545674463677,
+        "volume": 3960,
+        "spread": 0.046535256582891496
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5000545674463677,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.268684",
+      "source": "neural_field",
+      "market": "market_2",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5201903165694864,
+        "volume": 4151,
+        "spread": 0.03699335165300752
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5201903165694864,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.345362",
+      "source": "neural_field",
+      "market": "market_3",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.45940515080637107,
+        "volume": 6700,
+        "spread": 0.01644678841340631
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.45940515080637107,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.422181",
+      "source": "neural_field",
+      "market": "market_4",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.46575874852029187,
+        "volume": 7275,
+        "spread": 0.04846718220196515
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.46575874852029187,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.498748",
+      "source": "neural_field",
+      "market": "market_0",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5294300013675021,
+        "volume": 7154,
+        "spread": 0.03658252798371358
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5294300013675021,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.573225",
+      "source": "neural_field",
+      "market": "market_1",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.4344436834801198,
+        "volume": 3123,
+        "spread": 0.035376932013426315
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.4344436834801198,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.647945",
+      "source": "neural_field",
+      "market": "market_2",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.5269169330740141,
+        "volume": 2059,
+        "spread": 0.048015827127050006
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.5269169330740141,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.723822",
+      "source": "neural_field",
+      "market": "market_3",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.4360612707424269,
+        "volume": 9579,
+        "spread": 0.04428259751556723
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.4360612707424269,
+        "target": null,
+        "stop_loss": null
+      }
+    },
+    {
+      "id": "nf_20260225_220230",
+      "timestamp": "2026-02-25T22:02:30.798758",
+      "source": "neural_field",
+      "market": "market_4",
+      "action": "WAIT",
+      "side": "NO",
+      "confidence": "30%",
+      "priority": "LOW",
+      "timing": "WITHIN_1H",
+      "position": "1%",
+      "neural_field_data": {
+        "energy": Infinity,
+        "attractors": 0,
+        "thresholds": {
+          "fast_low": 0.3911973893204724,
+          "medium_low": 0.6015060610097259,
+          "slow_low": 0.8298057758021873,
+          "fast_high": 0.9784028838942157,
+          "medium_high": 0.8799083919188776,
+          "slow_high": 0.8298057758021873,
+          "calibrated_at": "2026-02-25T21:35:00",
+          "samples": 80,
+          "attractors": 20,
+          "method": "percentile_with_learning"
+        }
+      },
+      "market_context": {
+        "price": 0.415118976997031,
+        "volume": 4898,
+        "spread": 0.03960066416623164
+      },
+      "suggested_trade": {
+        "action": "WAIT",
+        "side": "YES",
+        "size": "1%",
+        "entry": 0.415118976997031,
+        "target": null,
+        "stop_loss": null
+      }
+    }
+  ],
+  "performance": {
+    "virtual_capital": 10000.0,
+    "total_trades": 0,
+    "win_rate": 0.0
+  }
+}

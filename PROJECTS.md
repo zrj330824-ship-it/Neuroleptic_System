@@ -1,41 +1,103 @@
-# 📊 Active Projects Index (Optimized)
+# 📊 PROJECTS.md - Project Overview
 
-**Last Updated**: 2026-02-25 13:25  
-**Read**: Status table only (<2K tokens)
-
----
-
-## 🎯 Active Projects
-
-| Project | Status | Priority | Next Action | Memory |
-|---------|--------|----------|-------------|--------|
-| **Trading** | 🟡 Monitoring | ⭐⭐⭐⭐⭐ | First trade expected | [projects/trading/](projects/trading/MEMORY.md) |
-| **Neuroleptic** | 🟢 Research | ⭐⭐⭐⭐⭐ | Wait GPU tests | [projects/neuroleptic/](projects/neuroleptic/MEMORY.md) |
-| **Content** | 🟢 Active | ⭐⭐⭐⭐ | Import Cookies | [projects/content/](projects/content/MEMORY.md) |
-| **Automation** | 🟢 Active | ⭐⭐⭐⭐ | Configure Cron | [projects/automation/](projects/automation/MEMORY.md) |
+**Last Updated**: 2026-02-26  
+**Status**: ✅ Organized
 
 ---
 
-## 🔄 Quick Switch
+## 🎯 4 Core Projects
 
-```bash
-# Read specific project (50 lines max)
-head -50 projects/trading/MEMORY.md
-
-# Check status
-grep -A5 "Current Status" projects/trading/MEMORY.md
-
-# View all (summary only)
-for f in projects/*/MEMORY.md; do echo "=== $f ==="; head -15 "$f"; done
-```
+| Project | Status | Priority | Location |
+|---------|--------|----------|----------|
+| **Trading** | 🟢 Live | ⭐⭐⭐⭐⭐ | `projects/trading/` |
+| **Neuroleptic** | 🟡 Research | ⭐⭐⭐⭐⭐ | `projects/neuroleptic/` |
+| **Content** | 🟢 Active | ⭐⭐⭐⭐ | `projects/content/` |
+| **Automation** | 🟢 Active | ⭐⭐⭐ | `projects/automation/` |
 
 ---
 
-## 📚 Full Documentation
+## 📁 Project Details
 
-- `WORKFLOW_CONTEXT_SWITCHING.md` — Complete switching protocol
-- `WORKFLOW_TOKEN_OPTIMIZATION.md` — Token efficiency guide
+### 1. Trading (projects/trading/)
+**Team**: NeuralFieldNet (NFN)  
+**System**: Polymarket Quant Fund
+
+**Components**:
+- NeuralField Signal Generator
+- Paper Trading Account ($10,000 virtual)
+- Daily Backtest & Improvement
+- Dashboard (port 5001)
+- WebSocket Integration
+
+**Status**: ✅ Live on VPS (London 8.208.78.10)  
+**Performance**: Trading every 5 minutes
 
 ---
 
-*Optimized: 2026-02-25 13:25*
+### 2. Neuroleptic (projects/neuroleptic/)
+**Research**: Neural Field Computing
+
+**Components**:
+- Neural Field Dynamics (64x64 field)
+- Attractor Memory Systems
+- Continuous Cognitive Architecture
+- spaCy Integration (dual-mode)
+
+**Status**: 🔬 Active Research  
+**Next**: GPU benchmarking (remote T4)
+
+---
+
+### 3. Content (projects/content/)
+**Platforms**: Twitter, Medium, Reddit, Dev.to, Gumroad, Moltbook
+
+**Components**:
+- Auto-post Scripts (Python + Playwright)
+- Post Templates
+- Published Articles Archive
+- Cookie Management
+
+**Status**: ✅ Auto-posting Active  
+**Schedule**: Daily posts across platforms
+
+---
+
+### 4. Automation (projects/automation/)
+**Focus**: Workflow & System Utilities
+
+**Components**:
+- Daily Platform Tracker
+- Rate Limit Protection
+- Cloudflare Bypass
+- System Monitoring
+
+**Status**: ✅ Active Utilities  
+**Usage**: Support all other projects
+
+---
+
+## 📚 System Files
+
+**Root Level** (Do not move):
+- `AGENTS.md`, `SOUL.md`, `IDENTITY.md`, `USER.md`
+- `MEMORY.md`, `TOOLS.md`, `PROJECTS.md`
+- `WORKFLOW_*.md` (4 workflow docs)
+- `HEARTBEAT.md`, `BOOTSTRAP.md`
+
+**Documentation**:
+- `docs/` - Project docs
+- `local_docs/` - API references
+- `memory/` - Session transcripts
+
+---
+
+## 🗄️ Archive
+
+**Location**: `.archive/`
+
+Contains old plans, completed guides, and temporary files.
+
+---
+
+*Organized: 2026-02-26*  
+*Structure: Clean & Scalable*

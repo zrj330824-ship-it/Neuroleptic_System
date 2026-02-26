@@ -1,0 +1,39 @@
+{
+  "_comment": "CONFIDENTIAL - Initial thresholds (to be calibrated)",
+  "_date": "2026-02-25",
+  "_source": "Neural field literature + initial estimates",
+  
+  "fast_low": 30.0,
+  "fast_high": 100.0,
+  
+  "medium_low": 50.0,
+  "medium_high": 150.0,
+  
+  "slow_low": 80.0,
+  "slow_high": 200.0,
+  
+  "sync_threshold": 0.85,
+  
+  "_notes": [
+    "These are INITIAL estimates based on:",
+    "1. Neural field dynamics literature (τ values)",
+    "2. Energy scale from similar systems",
+    "3. Market volatility assumptions",
+    "",
+    "MUST BE CALIBRATED with real historical data",
+    "Expected calibration time: 5-10 minutes",
+    "",
+    "Calibration methodology:",
+    "- Load 1000+ historical data points",
+    "- Grid search over threshold space",
+    "- Maximize: win_rate * profit_factor",
+    "- Constraint: min 30 signals for statistical significance"
+  ],
+  
+  "usage": {
+    "strong_buy": "E_fast < 30 AND E_medium < 50 AND E_slow < 80 AND sync > 0.85",
+    "weak_buy": "E_fast < 30 AND E_medium > 50",
+    "wait": "E_fast > 100 (noise)",
+    "regime_change": "E_slow > 200"
+  }
+}

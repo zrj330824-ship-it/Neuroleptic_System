@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-25T21:56:34.794840",
+    "initial_capital": 10000,
+    "final_capital": 10544.535558672615
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:55:46.060392",
+      "market_id": "market_1",
+      "action": "BUY",
+      "price": 0.4633915523472732,
+      "energy": Infinity
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:55:46.276076",
+      "market_id": "market_4",
+      "action": "SELL",
+      "price": 0.5204288221548539,
+      "pnl": 57.03726980758068,
+      "return_pct": 12.308655502816764
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:55:48.914355",
+      "market_id": "market_3",
+      "action": "BUY",
+      "price": 0.45947166576505083,
+      "energy": 0.3387237260460976
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:55:52.070635",
+      "market_id": "market_0",
+      "action": "SELL",
+      "price": 0.538256941370523,
+      "pnl": 79.2346453076296,
+      "return_pct": 17.146927977438935
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:55:55.209045",
+      "market_id": "market_2",
+      "action": "BUY",
+      "price": 0.4569575092401239,
+      "energy": 1.989392889278956
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:55:58.254396",
+      "market_id": "market_3",
+      "action": "SELL",
+      "price": 0.5447981038056887,
+      "pnl": 89.03761517019565,
+      "return_pct": 19.222923967621238
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:01.191319",
+      "market_id": "market_3",
+      "action": "BUY",
+      "price": 0.4638283519891485,
+      "energy": 4.573036978650022
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:56:04.521284",
+      "market_id": "market_2",
+      "action": "SELL",
+      "price": 0.5285253973043105,
+      "pnl": 66.15473140424324,
+      "return_pct": 13.948488710900445
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:07.465234",
+      "market_id": "market_2",
+      "action": "BUY",
+      "price": 0.46995778213400663,
+      "energy": 8.400691928088072
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:56:10.405762",
+      "market_id": "market_1",
+      "action": "SELL",
+      "price": 0.5243242613786092,
+      "pnl": 55.95106781797196,
+      "return_pct": 11.568375141642019
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:13.434735",
+      "market_id": "market_2",
+      "action": "BUY",
+      "price": 0.47814966048158786,
+      "energy": 13.096991555416546
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:56:16.897127",
+      "market_id": "market_2",
+      "action": "SELL",
+      "price": 0.5423957933845054,
+      "pnl": 66.47814204612328,
+      "return_pct": 13.436406676146007
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:19.766984",
+      "market_id": "market_1",
+      "action": "BUY",
+      "price": 0.4765907369210867,
+      "energy": 19.407590797035745
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:56:22.730852",
+      "market_id": "market_1",
+      "action": "SELL",
+      "price": 0.520620933091547,
+      "pnl": 45.852577245078706,
+      "return_pct": 9.238575733743382
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:25.977935",
+      "market_id": "market_4",
+      "action": "BUY",
+      "price": 0.47772427101431786,
+      "energy": 26.64401147402799
+    },
+    {
+      "type": "EXIT",
+      "timestamp": "2026-02-25T21:56:29.218507",
+      "market_id": "market_2",
+      "action": "SELL",
+      "price": 0.5587869559764697,
+      "pnl": 84.78950987378911,
+      "return_pct": 16.96850879902693
+    },
+    {
+      "type": "ENTRY",
+      "timestamp": "2026-02-25T21:56:32.344010",
+      "market_id": "market_4",
+      "action": "BUY",
+      "price": 0.4747405674425892,
+      "energy": 35.622325889333055
+    }
+  ],
+  "pnl_history": [
+    10000.0,
+    10057.03726980758,
+    10136.27191511521,
+    10225.309530285405,
+    10291.464261689649,
+    10347.415329507621,
+    10413.893471553745,
+    10459.746048798825,
+    10544.535558672615
+  ],
+  "statistics": {
+    "final_capital": 10544.535558672615,
+    "total_return": 5.445355586726146,
+    "total_trades": 8,
+    "win_rate": 1.0,
+    "total_pnl": 544.5355586726122,
+    "avg_win": 68.06694483407654,
+    "avg_loss": 0
+  }
+}

@@ -9,11 +9,10 @@
 ### Read Order (Essential Only, <6K tokens)
 
 1. **THIS FILE** (first 100 lines) — Core rules + current status
-2. `SOUL.md` — Identity
-3. `USER.md` — Human info  
-4. `MEMORY.md` (first 50 lines) — Session context
-5. `PROJECTS.md` (status table) — Project overview
-6. `projects/[name]/MEMORY.md` — Specific project (if working on one)
+2. `USER.md` — Human info  
+3. `MEMORY.md` (first 50 lines) — Session context
+4. `PROJECTS.md` (status table) — Project overview
+5. `projects/[name]/MEMORY.md` — Specific project (if working on one)
 
 ---
 
