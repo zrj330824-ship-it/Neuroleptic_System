@@ -9,7 +9,7 @@
 ## 🎯 Problem
 
 **Current State**:
-- Multiple projects running in parallel (Trading, Content, Neuroleptic, Automation...)
+- Multiple projects running in parallel (Trading, Content, NeuralField, Automation...)
 - Same session, constant switching
 - ❌ No context management between projects
 - ❌ No project-specific memory
@@ -45,7 +45,7 @@ Each project gets its own directory with standardized structure:
 │   │   ├── STATUS.md
 │   │   ├── TODO.md
 │   │   └── ...
-│   ├── neuroleptic/
+│   ├── neuralfield/
 │   │   ├── MEMORY.md
 │   │   ├── WORKFLOW.md
 │   │   ├── STATUS.md
@@ -281,7 +281,7 @@ git push
 |---------|--------|----------|-------------|-------------|
 | [Trading](projects/trading/) | 🟢 Running | ⭐⭐⭐⭐⭐ | 2h ago | Fix scanner |
 | [Content](projects/content/) | 🟡 Active | ⭐⭐⭐⭐ | 1d ago | Reddit posts |
-| [Neuroleptic](projects/neuroleptic/) | 🟢 Running | ⭐⭐⭐⭐⭐ | 3h ago | GPU tests |
+| [NeuralField](projects/neuralfield/) | 🟢 Running | ⭐⭐⭐⭐⭐ | 3h ago | GPU tests |
 | [Automation](projects/automation/) | 🟡 Active | ⭐⭐⭐ | 4h ago | Deploy scripts |
 
 ---
@@ -296,8 +296,8 @@ cat projects/trading/TODO.md
 # Switch to Content
 cat projects/content/MEMORY.md
 
-# Switch to Neuroleptic
-cat projects/neuroleptic/MEMORY.md
+# Switch to NeuralField
+cat projects/neuralfield/MEMORY.md
 ```
 
 ---
@@ -574,7 +574,7 @@ All projects use same template:
 
 - [Trading](../trading/) - uses same VPS
 - [Content](../content/) - shares deployment script
-- [Neuroleptic](../neuroleptic/) - independent
+- [NeuralFieldNet](../projects/neuralfield/) - independent
 ```
 
 ---

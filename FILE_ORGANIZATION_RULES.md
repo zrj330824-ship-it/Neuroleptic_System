@@ -74,7 +74,7 @@
 
 ---
 
-### 2. projects/neuroleptic/ 🧠
+### 2. projects/neuralfield/ 🧠
 
 **Research**: Neural Field Computing  
 **What goes here**:
@@ -85,9 +85,9 @@
 
 **Examples**:
 ```
-✅ projects/neuroleptic/neuro_symbolic_reasoner/
-✅ projects/neuroleptic/research_plan.md
-✅ projects/neuroleptic/experiment_results.json
+✅ projects/neuralfield/neuro_symbolic_reasoner/
+✅ projects/neuralfield/research_plan.md
+✅ projects/neuralfield/experiment_results.json
 ❌ root/neural_field.py  ← WRONG!
 ```
 
@@ -226,7 +226,7 @@ test_*.py → .archive/
 **Step 2**: Choose location
 ```
 Trading?     → projects/trading/
-Neuroleptic? → projects/neuroleptic/
+NeuralField? → projects/neuralfield/
 Content?     → projects/content/
 Automation?  → projects/automation/
 System?      → root (only if on allowlist)
@@ -307,7 +307,7 @@ First day of each month:
 | `auto_post_*.py` | `projects/content/scripts/` |
 | `*_templates.md` | `projects/content/templates/` |
 | `*trading*.py` | `projects/trading/` |
-| `*neural*.py` | `projects/neuroleptic/` |
+| `*neural*.py` | `projects/neuralfield/` |
 | `*bypass*.py` | `projects/automation/scripts/` |
 | `daily_plan_*.md` | `.archive/` |
 | `test_*.py` | `.archive/` |

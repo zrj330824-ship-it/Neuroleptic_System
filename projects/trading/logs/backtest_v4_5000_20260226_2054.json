@@ -1,0 +1,18 @@
+{
+  "initial_capital": 10000.0,
+  "final_capital": 10000.0,
+  "total_return": 0.0,
+  "total_pnl": 0.0,
+  "total_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate": 0.0,
+  "total_signals": 0,
+  "level1_signals": 0,
+  "level2_signals": 0,
+  "level3_signals": 0,
+  "win_rate_level1": 0.0,
+  "win_rate_level2": 0.0,
+  "win_rate_level3": 0.0,
+  "elapsed_time": 0.3552281856536865
+}

@@ -1,0 +1,120 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26 13:04",
+  "platforms": {
+    "medium": {
+      "name": "Medium",
+      "status": "prepared",
+      "priority": "🟡 HIGH",
+      "items": [
+        {
+          "type": "article",
+          "title": "Neural Field Trading: Market Prediction with 2D Neural Fields",
+          "status": "draft",
+          "target_length": 1500,
+          "tags": [
+            "trading",
+            "neural-networks",
+            "quantitative-finance",
+            "machine-learning"
+          ]
+        }
+      ]
+    },
+    "twitter": {
+      "name": "Twitter/X",
+      "status": "prepared",
+      "priority": "🟡 HIGH",
+      "items": [
+        {
+          "type": "tweet",
+          "template": "🧠 Neural Field Trading Update: {metric} today. Win rate: {win_rate}%. #QuantTrading #AI",
+          "status": "ready",
+          "scheduled": "2026-02-26 10:00"
+        },
+        {
+          "type": "tweet",
+          "template": "⚡ New arbitrage opportunity detected: {market}. Energy pattern: {pattern}. #Trading #ML",
+          "status": "ready",
+          "scheduled": "2026-02-26 12:00"
+        },
+        {
+          "type": "tweet",
+          "template": "📊 Market analysis: {insight}. Neural field activation shows {signal}. #DataScience",
+          "status": "ready",
+          "scheduled": "2026-02-26 14:00"
+        },
+        {
+          "type": "tweet",
+          "template": "🚀 Building autonomous trading systems with neural fields. Day {day}: {progress}. #BuildInPublic",
+          "status": "ready",
+          "scheduled": "2026-02-26 16:00"
+        }
+      ]
+    },
+    "reddit": {
+      "name": "Reddit",
+      "status": "prepared",
+      "priority": "🟡 HIGH",
+      "items": [
+        {
+          "type": "post",
+          "title": "[Project] Neural Field-Based Trading System - Week 1 Results",
+          "subreddit": "r/algotrading",
+          "status": "pending_oauth",
+          "content_preview": "Sharing my journey building a neural field-based trading system..."
+        }
+      ]
+    },
+    "substack": {
+      "name": "Substack",
+      "status": "prepared",
+      "priority": "🟡 HIGH",
+      "items": [
+        {
+          "type": "newsletter",
+          "title": "Neural Field Trading Weekly #9",
+          "status": "draft",
+          "sections": [
+            "Market Overview",
+            "System Performance",
+            "Technical Insights",
+            "Next Week's Focus"
+          ]
+        }
+      ]
+    },
+    "devto": {
+      "name": "Dev.to",
+      "status": "prepared",
+      "priority": "🟢 MEDIUM",
+      "items": []
+    },
+    "moltbook": {
+      "name": "Moltbook",
+      "status": "prepared",
+      "priority": "⭐⭐⭐⭐⭐ CRITICAL",
+      "items": [
+        {
+          "type": "dual_post",
+          "topic": "Polymarket 套利策略分析",
+          "content_type": "情报收集 + 内容变现",
+          "status": "ready",
+          "target_length": 800
+        }
+      ]
+    },
+    "gumroad": {
+      "name": "Gumroad",
+      "status": "prepared",
+      "priority": "🟢 MEDIUM",
+      "items": []
+    },
+    "telegram": {
+      "name": "Telegram Bot",
+      "status": "prepared",
+      "priority": "🔴 CRITICAL",
+      "items": []
+    }
+  }
+}

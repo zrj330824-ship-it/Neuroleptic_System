@@ -44,8 +44,8 @@
 cd /home/jerry/.openclaw/workspace
 
 # 克隆仓库 (如未克隆)
-git clone https://github.com/zrj330824-ship-it/Neuroleptic_System.git
-cd Neuroleptic_System
+git clone https://github.com/zrj330824-ship-it/NeuralField_System.git
+cd NeuralField_System
 ```
 
 ### 步骤 2: 创建虚拟环境
@@ -177,7 +177,7 @@ mkdir -p trading logs docs backup
 
 ```bash
 # 克隆仓库
-git clone https://github.com/zrj330824-ship-it/Neuroleptic_System.git .
+git clone https://github.com/zrj330824-ship-it/NeuralField_System.git .
 
 # 安装依赖
 pip3 install -r requirements.txt

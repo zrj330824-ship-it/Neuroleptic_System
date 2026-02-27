@@ -44,7 +44,7 @@ Things like:
 
 - **Username**: zrj330824-ship-it
 - **Email**: zrj330824@gmail.com
-- **Repository**: https://github.com/zrj330824-ship-it/Neuroleptic_System
+- **Repository**: https://github.com/zrj330824-ship-it/NeuralFieldNet
 - **Token**: `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`
 - **Token Scope**: repo (full control of private repositories)
 - **Stored**: 2026-02-25 12:28

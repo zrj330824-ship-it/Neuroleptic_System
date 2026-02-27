@@ -48,7 +48,7 @@
 - WORKFLOW.md - 工作流程
 
 #### 项目文档
-- 4 个项目 README.md (trading, neuroleptic, content, automation)
+- 4 个项目 README.md (trading, neuralfield, content, automation)
 
 #### VPS 文档
 - VPS_DEPLOYMENT.md - VPS 部署指南

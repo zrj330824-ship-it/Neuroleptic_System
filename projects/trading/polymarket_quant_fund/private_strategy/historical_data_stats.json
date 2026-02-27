@@ -1,0 +1,23 @@
+{
+  "total_samples": 1000,
+  "profit_stats": {
+    "mean": 2.0110799,
+    "std": 4.01995396734664,
+    "min": -14.9747,
+    "max": 14.8509,
+    "median": 3.2948
+  },
+  "confidence_stats": {
+    "mean": 0.843424,
+    "std": 0.11885906033618135,
+    "min": 0.55,
+    "max": 0.95
+  },
+  "liquidity_stats": {
+    "mean": 74.0111,
+    "std": 13.960664983803602,
+    "min": 50.0,
+    "max": 95.0
+  },
+  "win_rate": 0.715
+}

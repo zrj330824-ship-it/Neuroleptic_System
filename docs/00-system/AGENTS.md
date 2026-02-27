@@ -28,7 +28,7 @@
 | Project | Status | Priority | Next Action |
 |---------|--------|----------|-------------|
 | **Trading** | 🟡 Critical | ⭐⭐⭐⭐⭐ | Monitor first trade |
-| **Neuroleptic** | 🟢 Research | ⭐⭐⭐⭐⭐ | Wait GPU tests |
+| **NeuralFieldNet** | 🟢 Research | ⭐⭐⭐⭐⭐ | Wait GPU tests |
 | **Content** | 🟢 Active | ⭐⭐⭐⭐ | Import Cookies |
 | **Automation** | 🟢 Active | ⭐⭐⭐⭐ | Configure Cron |
 
@@ -76,7 +76,7 @@
 ## 🎯 Session Priority
 
 1. 🔴 **Critical** (system down, 0 trades) — 50% time
-2. ⭐⭐⭐⭐⭐ **Priority** (Trading, Neuroleptic) — 30% time
+2. ⭐⭐⭐⭐⭐ **Priority** (Trading, NeuralFieldNet) — 30% time
 3. ⭐⭐⭐⭐ **Important** (Content, Automation) — 15% time
 4. ⭐⭐⭐ **Nice to Have** — 5% time
 

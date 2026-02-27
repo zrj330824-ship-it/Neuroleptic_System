@@ -119,7 +119,7 @@ projects/automation/scripts/
 /root/Workspace/
 ├── trading/          (交易代码)
 ├── content/          (内容自动化)
-├── neuroleptic/      (神经场研究)
+├── neuralfield/      (神经场研究)
 ├── automation/       (系统工具)
 ├── docs/             (文档体系) ✅ 已同步
 ├── requirements/     (需求文档) ✅ 已同步

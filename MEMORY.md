@@ -52,7 +52,7 @@
 
 **4 Core Projects**:
 1. **Trading** → `projects/trading/`
-2. **Neuroleptic** → `projects/neuroleptic/`
+2. **NeuralFieldNet** → `projects/neuralfield/`
 3. **Content** → `projects/content/`
 4. **Automation** → `projects/automation/`
 

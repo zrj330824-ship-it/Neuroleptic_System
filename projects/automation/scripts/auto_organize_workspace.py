@@ -46,9 +46,9 @@ FILE_RULES = {
     '*cloudflare*.py': 'projects/automation/scripts/',
     '*rate_limit*.py': 'projects/automation/scripts/',
     
-    # Neuroleptic files
-    '*neural*.py': 'projects/neuroleptic/',
-    '*neuro*.md': 'projects/neuroleptic/',
+    # NeuralField files
+    '*neural*.py': 'projects/neuralfield/',
+    '*neuro*.md': 'projects/neuralfield/',
     
     # Archive (old/temporary files)
     'daily_plan_*.md': '.archive/',

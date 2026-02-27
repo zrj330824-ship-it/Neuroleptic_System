@@ -386,6 +386,36 @@ class RiskValidator:
         return final_result
 
 
+class SlippageMonitor:
+    """滑点监控器 (导出供整合机器人使用)"""
+    
+    def __init__(self, max_slippage: float = 0.005):
+        self.max_slippage = max_slippage  # 0.5%
+        self.bad_executions = []  # 不良执行记录
+        self.all_executions = []  # 所有执行记录
+    
+    def record_execution(self, order, execution_price: float):
+        """记录执行情况"""
+        expected_price = getattr(order, 'signal_price', 0)
+        if expected_price > 0:
+            slippage = abs(execution_price - expected_price) / expected_price
+            self.all_executions.append({'expected': expected_price, 'actual': execution_price})
+            if slippage > self.max_slippage:
+                self.bad_executions.append({'slippage': slippage})
+
+
+class StrategyHealthMonitor:
+    """策略健康监控器 (导出供整合机器人使用)"""
+    
+    def __init__(self):
+        self.strategy_stats = {
+            'liquidity': {'consecutive_losses': 0, 'win_rate': 0.0},
+            'arbitrage': {'consecutive_losses': 0, 'win_rate': 0.0},
+            'directional': {'consecutive_losses': 0, 'win_rate': 0.0}
+        }
+        self.suspended_strategies = set()
+
+
 def main():
     """测试示例"""
     

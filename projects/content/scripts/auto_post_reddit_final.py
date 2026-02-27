@@ -26,7 +26,7 @@ REDDIT_CONFIG = {
     'client_secret': 'YOUR_CLIENT_SECRET',
     'username': 'YOUR_USERNAME',
     'password': 'YOUR_PASSWORD',
-    'user_agent': 'NeurolepticBot/1.0'
+    'user_agent': 'NeuralFieldBot/1.0'
 }
 
 # 目标 subreddits

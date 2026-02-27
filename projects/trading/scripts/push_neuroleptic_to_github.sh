@@ -1,5 +1,5 @@
 #!/bin/bash
-# GitHub Push Script for Neuroleptic_System
+# GitHub Push Script for NeuralField_System
 # 神经场系统 GitHub 推送脚本
 
 # ⚠️ CRITICAL: This push removes unverified GPT-4 comparison claims
@@ -8,7 +8,7 @@
 set -e
 
 REPO_DIR="/home/jerry/.openclaw/workspace/neuro_symbolic_reasoner"
-REPO_URL="https://github.com/zrj330824-ship-it/Neuroleptic_System.git"
+REPO_URL="https://github.com/zrj330824-ship-it/NeuralField_System.git"
 
 cd "$REPO_DIR"
 
@@ -22,7 +22,7 @@ echo ""
 # Try HTTPS with token (if available)
 if [ -n "$GITHUB_TOKEN" ]; then
     echo "✅ Using GITHUB_TOKEN from environment"
-    git remote set-url origin "https://${GITHUB_TOKEN}@github.com/zrj330824-ship-it/Neuroleptic_System.git"
+    git remote set-url origin "https://${GITHUB_TOKEN}@github.com/zrj330824-ship-it/NeuralField_System.git"
     git push origin main --force
     echo ""
     echo "✅ PUSH SUCCESSFUL with token!"
@@ -31,7 +31,7 @@ fi
 
 # Try SSH
 echo "⚠️ No GITHUB_TOKEN found, trying SSH..."
-git remote set-url origin git@github.com:zrj330824-ship-it/Neuroleptic_System.git
+git remote set-url origin git@github.com:zrj330824-ship-it/NeuralField_System.git
 
 if git push origin main --force 2>&1; then
     echo ""

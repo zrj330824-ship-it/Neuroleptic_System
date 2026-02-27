@@ -300,7 +300,7 @@ def integrate_signals(self, liquidity, arbitrage, directional):
 - [整合交易机器人 v3.0](03-technical/INTEGRATED_BOT_V3.md)
 - [流动性驱动策略](02-tactics/LIQUIDITY_STRATEGY.md)
 - [方向性交易策略](02-tactics/DIRECTIONAL_STRATEGY.md)
-- [神经场信号生成器](../../projects/neuroleptic/neural_field_signal_generator.py)
+- [神经场信号生成器](../../projects/neuralfield/neural_field_signal_generator.py)
 
 ---
 

@@ -23,7 +23,7 @@
 │
 ├── projects/                      ✅ 4 大项目目录
 │   ├── trading/                   📈 交易项目
-│   ├── neuroleptic/               🧠 神经场项目
+│   ├── neuralfield/               🧠 神经场项目
 │   ├── content/                   📝 内容发布项目
 │   └── automation/                🤖 自动化项目
 │
@@ -107,7 +107,7 @@
 │   │   ├── README.md
 │   │   ├── MEMORY.md
 │   │   └── STRATEGY.md
-│   ├── neuroleptic/
+│   ├── neuralfield/
 │   │   ├── README.md
 │   │   └── RESEARCH_NOTES.md
 │   ├── content/
@@ -274,7 +274,7 @@ projects/trading/
 | 目录 | 命名规则 | 示例 |
 |------|---------|------|
 | **分类目录** | 数字前缀 + 小写 | `01-strategy/` |
-| **项目目录** | 小写 | `trading/`, `neuroleptic/` |
+| **项目目录** | 小写 | `trading/`, `neuralfield/` |
 | **归档目录** | archive + 日期 | `archive_2026-02/` |
 
 ---
@@ -299,7 +299,7 @@ projects/trading/
 
 ### 项目文档
 - [交易项目](../projects/trading/docs/)
-- [神经场项目](../projects/neuroleptic/docs/)
+- [神经场项目](../projects/neuralfield/docs/)
 - [内容项目](../projects/content/docs/)
 - [自动化项目](../projects/automation/docs/)
 
@@ -404,7 +404,7 @@ vim SEARCH.md  # 搜索索引
 
 ```bash
 # 为每个项目创建文档
-for project in trading neuroleptic content automation; do
+for project in trading neuralfield content automation; do
   mkdir -p ../projects/$project/docs
   cat > ../projects/$project/docs/README.md << EOF
 # ${project^} Project

@@ -1,0 +1,61 @@
+{
+  "polymarket_fees": {
+    "description": "Polymarket 官方手续费结构 (2026-02-26 确认)",
+    "last_updated": "2026-02-26 19:30",
+    "source": "https://docs.polymarket.com/cn/trading/fees",
+    
+    "fee_model": {
+      "description": "绝大多数市场免费，仅特定市场收费",
+      "free_markets": "政治、金融、科技、气候、长期体育等",
+      "paid_markets": "15 分钟/5 分钟加密货币、NCAAB、Serie A"
+    },
+    
+    "fees": {
+      "free_market_fee": 0.00,
+      "paid_market_max_fee": 0.0044,
+      "paid_market_avg_fee": 0.002,
+      "description": "免费市场 0%，收费市场最高 0.44%"
+    },
+    
+    "fee_table": {
+      "max_effective_rate": 0.0044,
+      "at_probability": 0.50,
+      "min_fee": 0.0001,
+      "precision": 4
+    },
+    
+    "paid_market_types": [
+      "crypto-15min",
+      "crypto-5min",
+      "ncaab-basketball",
+      "serie-a-soccer"
+    ],
+    
+    "free_market_types": [
+      "politics",
+      "finance",
+      "tech",
+      "climate",
+      "sports-long",
+      "crypto-long"
+    ],
+    
+    "api_endpoint": {
+      "fee_rate": "https://clob.polymarket.com/fee-rate?token_id={token_id}",
+      "description": "查询特定市场费率"
+    },
+    
+    "gas_fees": {
+      "create_order": 0.01,
+      "cancel_order": 0.005,
+      "settle_market": 0.02,
+      "withdraw": 1.0
+    },
+    
+    "default_settings": {
+      "default_order_type": "maker",
+      "estimated_avg_fee_rate": 0.00,
+      "assume_free_market": true
+    }
+  }
+}

@@ -228,7 +228,7 @@ else:
 │   │   ├── docs/               # 项目文档
 │   │   ├── scripts/            # 交易脚本
 │   │   └── logs/               # 日志
-│   ├── neuroleptic/            # 神经场项目
+│   ├── neuralfield/            # 神经场项目
 │   ├── content/                # 内容项目
 │   └── automation/             # 自动化项目
 │

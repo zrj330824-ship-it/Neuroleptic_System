@@ -19,7 +19,7 @@ Workspace/
 │   ├── scripts/          # Auto-post 脚本
 │   ├── articles/         # 文章/产品
 │   └── assets/           # 社交媒体资源
-├── neuroleptic/          # 🧠 神经场研究
+├── neuralfield/          # 🧠 神经场研究
 │   ├── scripts/          # 信号生成器
 │   ├── research/         # 研究报告
 │   └── private_strategy/ # 私有策略
@@ -41,7 +41,7 @@ Workspace/
 |------|--------|------|
 | trading/ | 15 | Polymarket 量化交易 |
 | content/ | 7+ | 多平台内容发布 |
-| neuroleptic/ | 1+ | Neural Field 研究 |
+| neuralfield/ | 1+ | Neural Field 研究 |
 | automation/ | - | 系统自动化 |
 | .archive/ | 3 | 归档文件 |
 | root | 6 | 敏感文件 + 备份 |

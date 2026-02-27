@@ -29,7 +29,7 @@
    → projects/automation/
 
 4. Is this neural field research?
-   → projects/neuroleptic/
+   → projects/neuralfield/
 
 5. Is this a system file (AGENTS.md, SOUL.md, etc.)?
    → root/ (ONLY if on allowlist)
@@ -63,7 +63,7 @@
 ✅ projects/content/templates/*_templates.md
 ✅ projects/content/published/*_article.md
 ✅ projects/automation/scripts/*.py
-✅ projects/neuroleptic/*.py
+✅ projects/neuralfield/*.py
 ✅ .archive/daily_plan_*.md
 ```
 
@@ -95,7 +95,7 @@ workspace/
 │
 ├── projects/              ← ALL project files here!
 │   ├── trading/           ← Trading scripts, docs
-│   ├── neuroleptic/       ← Research code
+│   ├── neuralfield/       ← Research code
 │   ├── content/           ← Auto-post, templates
 │   └── automation/        ← Utilities, monitors
 │

@@ -33,11 +33,11 @@ projects/trading/
 
 ---
 
-### 2. **projects/neuroleptic/** 🧠
+### 2. **projects/neuralfield/** 🧠
 **Research**: Neural Field Computing & Neuro-symbolic AI
 
 ```
-projects/neuroleptic/
+projects/neuralfield/
 ├── neuro_symbolic_reasoner/    # Core research code
 │   ├── integration/
 │   ├── benchmarks/
@@ -169,8 +169,8 @@ cd projects/content/scripts
 # Automation utilities
 cd projects/automation/scripts
 
-# Neuroleptic research
-cd projects/neuroleptic/neuro_symbolic_reasoner
+# NeuralField research
+cd projects/neuralfield/neuro_symbolic_reasoner
 
 # Archived files
 cd .archive

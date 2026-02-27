@@ -1,0 +1,913 @@
+{
+  "initial_capital": 10000.0,
+  "final_capital": 10492.062064115318,
+  "total_pnl": 492.06206411531804,
+  "total_return": 0.04920620641153182,
+  "total_trades": 100,
+  "wins": 100,
+  "losses": 0,
+  "win_rate": 1.0,
+  "risk_rejected": 0,
+  "trades": [
+    {
+      "index": 0,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531638,
+      "pnl": 5.9934,
+      "return": 0.029967,
+      "capital": 10005.9934
+    },
+    {
+      "index": 1,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.520212,
+      "pnl": 4.726230922556,
+      "return": 0.023617,
+      "capital": 10010.719630922555
+    },
+    {
+      "index": 2,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.532616,
+      "pnl": 6.3021484364509845,
+      "return": 0.031477,
+      "capital": 10017.021779359005
+    },
+    {
+      "index": 3,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.540316,
+      "pnl": 8.059695723672254,
+      "return": 0.040229999999999995,
+      "capital": 10025.081475082678
+    },
+    {
+      "index": 4,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.520125,
+      "pnl": 4.5429659212484665,
+      "return": 0.022658,
+      "capital": 10029.624441003925
+    },
+    {
+      "index": 5,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.525004,
+      "pnl": 4.545225204174159,
+      "return": 0.022659,
+      "capital": 10034.1696662081
+    },
+    {
+      "index": 6,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.535171,
+      "pnl": 8.186276980479215,
+      "return": 0.040792,
+      "capital": 10042.355943188579
+    },
+    {
+      "index": 7,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531105,
+      "pnl": 6.562478761754873,
+      "return": 0.032674,
+      "capital": 10048.918421950333
+    },
+    {
+      "index": 8,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.5228,
+      "pnl": 4.080865771154031,
+      "return": 0.020305,
+      "capital": 10052.999287721486
+    },
+    {
+      "index": 9,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.525299,
+      "pnl": 6.117451126564279,
+      "return": 0.030426,
+      "capital": 10059.11673884805
+    },
+    {
+      "index": 10,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.520996,
+      "pnl": 4.097279430067587,
+      "return": 0.020366,
+      "capital": 10063.214018278117
+    },
+    {
+      "index": 11,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.522565,
+      "pnl": 4.094319255476635,
+      "return": 0.020343,
+      "capital": 10067.308337533594
+    },
+    {
+      "index": 12,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526105,
+      "pnl": 5.520911892303423,
+      "return": 0.02742,
+      "capital": 10072.829249425897
+    },
+    {
+      "index": 13,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.505563,
+      "pnl": 1.1819457841276346,
+      "return": 0.005867,
+      "capital": 10074.011195210025
+    },
+    {
+      "index": 14,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.508089,
+      "pnl": 1.561673215481458,
+      "return": 0.007751,
+      "capital": 10075.572868425506
+    },
+    {
+      "index": 15,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.519085,
+      "pnl": 3.9046875094296203,
+      "return": 0.019377,
+      "capital": 10079.477555934936
+    },
+    {
+      "index": 16,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.51597,
+      "pnl": 2.9980398042372878,
+      "return": 0.014872000000000002,
+      "capital": 10082.475595739174
+    },
+    {
+      "index": 17,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531765,
+      "pnl": 5.674820564305837,
+      "return": 0.028142,
+      "capital": 10088.150416303479
+    },
+    {
+      "index": 18,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514079,
+      "pnl": 3.212067092551028,
+      "return": 0.01592,
+      "capital": 10091.36248339603
+    },
+    {
+      "index": 19,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.509627,
+      "pnl": 2.1952749946379724,
+      "return": 0.010877,
+      "capital": 10093.557758390667
+    },
+    {
+      "index": 20,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.533992,
+      "pnl": 8.005402529334805,
+      "return": 0.039656,
+      "capital": 10101.563160920003
+    },
+    {
+      "index": 21,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.524989,
+      "pnl": 4.594594988112854,
+      "return": 0.022742,
+      "capital": 10106.157755908116
+    },
+    {
+      "index": 22,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.522793,
+      "pnl": 5.189512007658817,
+      "return": 0.025675,
+      "capital": 10111.347267915775
+    },
+    {
+      "index": 23,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.511853,
+      "pnl": 2.1745463434379664,
+      "return": 0.010752999999999999,
+      "capital": 10113.521814259213
+    },
+    {
+      "index": 24,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.521841,
+      "pnl": 3.955600651993064,
+      "return": 0.019556,
+      "capital": 10117.477414911205
+    },
+    {
+      "index": 25,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.527111,
+      "pnl": 5.283144356518333,
+      "return": 0.026109,
+      "capital": 10122.760559267725
+    },
+    {
+      "index": 26,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514463,
+      "pnl": 2.7311207988904322,
+      "return": 0.01349,
+      "capital": 10125.491680066614
+    },
+    {
+      "index": 27,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531847,
+      "pnl": 5.823575284873512,
+      "return": 0.028757,
+      "capital": 10131.315255351488
+    },
+    {
+      "index": 28,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.518642,
+      "pnl": 3.8486840392029236,
+      "return": 0.018994,
+      "capital": 10135.163939390692
+    },
+    {
+      "index": 29,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526251,
+      "pnl": 4.476296505471293,
+      "return": 0.022083,
+      "capital": 10139.640235896162
+    },
+    {
+      "index": 30,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.521796,
+      "pnl": 3.8496158119603368,
+      "return": 0.018983,
+      "capital": 10143.489851708122
+    },
+    {
+      "index": 31,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.537479,
+      "pnl": 8.829502176317853,
+      "return": 0.043523,
+      "capital": 10152.319353884439
+    },
+    {
+      "index": 32,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.525849,
+      "pnl": 5.048748414686732,
+      "return": 0.024864999999999998,
+      "capital": 10157.368102299126
+    },
+    {
+      "index": 33,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.516608,
+      "pnl": 2.9299944027892058,
+      "return": 0.014422999999999998,
+      "capital": 10160.298096701916
+    },
+    {
+      "index": 34,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.529782,
+      "pnl": 6.751518085258423,
+      "return": 0.033225,
+      "capital": 10167.049614787175
+    },
+    {
+      "index": 35,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514409,
+      "pnl": 2.6011379734471505,
+      "return": 0.012792,
+      "capital": 10169.65075276062
+    },
+    {
+      "index": 36,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.523062,
+      "pnl": 5.50971338483065,
+      "return": 0.027089,
+      "capital": 10175.160466145451
+    },
+    {
+      "index": 37,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.505463,
+      "pnl": 1.0995278399716775,
+      "return": 0.005403,
+      "capital": 10176.259993985423
+    },
+    {
+      "index": 38,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.512716,
+      "pnl": 2.3849082921904237,
+      "return": 0.011718,
+      "capital": 10178.644902277612
+    },
+    {
+      "index": 39,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526301,
+      "pnl": 5.490157487390499,
+      "return": 0.026969,
+      "capital": 10184.135059765003
+    },
+    {
+      "index": 40,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526737,
+      "pnl": 6.5962642782097936,
+      "return": 0.032385000000000004,
+      "capital": 10190.731324043214
+    },
+    {
+      "index": 41,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.521448,
+      "pnl": 5.444703931809809,
+      "return": 0.026714,
+      "capital": 10196.176027975023
+    },
+    {
+      "index": 42,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.52771,
+      "pnl": 4.862352424220728,
+      "return": 0.023843999999999997,
+      "capital": 10201.038380399244
+    },
+    {
+      "index": 43,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.520041,
+      "pnl": 4.48621265893198,
+      "return": 0.021989,
+      "capital": 10205.524593058177
+    },
+    {
+      "index": 44,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.509165,
+      "pnl": 2.0849886743617856,
+      "return": 0.010215,
+      "capital": 10207.609581732539
+    },
+    {
+      "index": 45,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514931,
+      "pnl": 3.6343173154800525,
+      "return": 0.017802,
+      "capital": 10211.243899048019
+    },
+    {
+      "index": 46,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.523362,
+      "pnl": 4.1649621615437065,
+      "return": 0.020394000000000002,
+      "capital": 10215.408861209562
+    },
+    {
+      "index": 47,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.529319,
+      "pnl": 7.267446172041707,
+      "return": 0.035571,
+      "capital": 10222.676307381604
+    },
+    {
+      "index": 48,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.525577,
+      "pnl": 5.813840469534066,
+      "return": 0.028436,
+      "capital": 10228.490147851138
+    },
+    {
+      "index": 49,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.506437,
+      "pnl": 1.5076794477932578,
+      "return": 0.00737,
+      "capital": 10229.997827298932
+    },
+    {
+      "index": 50,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.527598,
+      "pnl": 5.778107372814984,
+      "return": 0.028241000000000002,
+      "capital": 10235.775934671747
+    },
+    {
+      "index": 51,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.522436,
+      "pnl": 4.329528504847456,
+      "return": 0.021149,
+      "capital": 10240.105463176595
+    },
+    {
+      "index": 52,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.52134,
+      "pnl": 3.73374725398345,
+      "return": 0.018231,
+      "capital": 10243.839210430579
+    },
+    {
+      "index": 53,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.530885,
+      "pnl": 6.375150894219367,
+      "return": 0.031117,
+      "capital": 10250.214361324797
+    },
+    {
+      "index": 54,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.533601,
+      "pnl": 7.238701381967573,
+      "return": 0.03531,
+      "capital": 10257.453062706765
+    },
+    {
+      "index": 55,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531365,
+      "pnl": 7.0392797388131445,
+      "return": 0.034312999999999996,
+      "capital": 10264.49234244558
+    },
+    {
+      "index": 56,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514315,
+      "pnl": 3.409453776466724,
+      "return": 0.016608,
+      "capital": 10267.901796222046
+    },
+    {
+      "index": 57,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.524081,
+      "pnl": 4.4989838510326505,
+      "return": 0.021907999999999997,
+      "capital": 10272.400780073078
+    },
+    {
+      "index": 58,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.523294,
+      "pnl": 5.816849665724181,
+      "return": 0.028313,
+      "capital": 10278.217629738801
+    },
+    {
+      "index": 59,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.536077,
+      "pnl": 7.144389074431442,
+      "return": 0.034755,
+      "capital": 10285.362018813234
+    },
+    {
+      "index": 60,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.523778,
+      "pnl": 4.1569319135235565,
+      "return": 0.020208,
+      "capital": 10289.518950726757
+    },
+    {
+      "index": 61,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.524249,
+      "pnl": 4.762606741533387,
+      "return": 0.023142999999999997,
+      "capital": 10294.28155746829
+    },
+    {
+      "index": 62,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.51636,
+      "pnl": 2.869428041328711,
+      "return": 0.013937,
+      "capital": 10297.15098550962
+    },
+    {
+      "index": 63,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.511816,
+      "pnl": 2.685085090981489,
+      "return": 0.013038000000000001,
+      "capital": 10299.8360706006
+    },
+    {
+      "index": 64,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.53069,
+      "pnl": 6.823641396772898,
+      "return": 0.033125,
+      "capital": 10306.659711997374
+    },
+    {
+      "index": 65,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.540431,
+      "pnl": 7.948908236280854,
+      "return": 0.038562,
+      "capital": 10314.608620233656
+    },
+    {
+      "index": 66,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.524337,
+      "pnl": 5.008773945985463,
+      "return": 0.02428,
+      "capital": 10319.61739417964
+    },
+    {
+      "index": 67,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.54035,
+      "pnl": 7.230955908101674,
+      "return": 0.035035,
+      "capital": 10326.848350087743
+    },
+    {
+      "index": 68,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.529895,
+      "pnl": 5.910261847722218,
+      "return": 0.028616000000000003,
+      "capital": 10332.758611935466
+    },
+    {
+      "index": 69,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.519794,
+      "pnl": 3.8332467898558193,
+      "return": 0.018549,
+      "capital": 10336.591858725322
+    },
+    {
+      "index": 70,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.5336380000000001,
+      "pnl": 5.915424788911327,
+      "return": 0.028614,
+      "capital": 10342.507283514233
+    },
+    {
+      "index": 71,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.544296,
+      "pnl": 8.352608882166095,
+      "return": 0.04038,
+      "capital": 10350.859892396398
+    },
+    {
+      "index": 72,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526787,
+      "pnl": 5.101317789368641,
+      "return": 0.024642,
+      "capital": 10355.961210185767
+    },
+    {
+      "index": 73,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.540734,
+      "pnl": 8.418567986984215,
+      "return": 0.040646,
+      "capital": 10364.379778172752
+    },
+    {
+      "index": 74,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.504185,
+      "pnl": 1.0364379778172752,
+      "return": 0.005,
+      "capital": 10365.416216150568
+    },
+    {
+      "index": 75,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.531007,
+      "pnl": 6.886575225686114,
+      "return": 0.033219,
+      "capital": 10372.302791376254
+    },
+    {
+      "index": 76,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.528367,
+      "pnl": 5.366629464258074,
+      "return": 0.02587,
+      "capital": 10377.669420840513
+    },
+    {
+      "index": 77,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.518593,
+      "pnl": 4.568250079053994,
+      "return": 0.022010000000000002,
+      "capital": 10382.237670919567
+    },
+    {
+      "index": 78,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.52639,
+      "pnl": 5.381736719097867,
+      "return": 0.025918,
+      "capital": 10387.619407638666
+    },
+    {
+      "index": 79,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.50498,
+      "pnl": 1.0645232368948105,
+      "return": 0.005124,
+      "capital": 10388.68393087556
+    },
+    {
+      "index": 80,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526442,
+      "pnl": 4.737863193515109,
+      "return": 0.022803,
+      "capital": 10393.421794069076
+    },
+    {
+      "index": 81,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526899,
+      "pnl": 5.939009081566951,
+      "return": 0.028571,
+      "capital": 10399.360803150643
+    },
+    {
+      "index": 82,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.546554,
+      "pnl": 8.27352346777059,
+      "return": 0.039779,
+      "capital": 10407.634326618414
+    },
+    {
+      "index": 83,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.522841,
+      "pnl": 4.124961789011943,
+      "return": 0.019817,
+      "capital": 10411.759288407426
+    },
+    {
+      "index": 84,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.518826,
+      "pnl": 3.522298167268232,
+      "return": 0.016915,
+      "capital": 10415.281586574694
+    },
+    {
+      "index": 85,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.518119,
+      "pnl": 4.162363133258711,
+      "return": 0.019982,
+      "capital": 10419.443949707953
+    },
+    {
+      "index": 86,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.539053,
+      "pnl": 7.117313773166508,
+      "return": 0.034154,
+      "capital": 10426.561263481119
+    },
+    {
+      "index": 87,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.526586,
+      "pnl": 5.898931300427078,
+      "return": 0.028288,
+      "capital": 10432.460194781546
+    },
+    {
+      "index": 88,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.515948,
+      "pnl": 4.110806615151721,
+      "return": 0.019702,
+      "capital": 10436.571001396698
+    },
+    {
+      "index": 89,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.53576,
+      "pnl": 6.289703879701735,
+      "return": 0.030133,
+      "capital": 10442.8607052764
+    },
+    {
+      "index": 90,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.527836,
+      "pnl": 5.424230707534669,
+      "return": 0.025971,
+      "capital": 10448.284935983935
+    },
+    {
+      "index": 91,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.529349,
+      "pnl": 7.248184225790776,
+      "return": 0.034686,
+      "capital": 10455.533120209726
+    },
+    {
+      "index": 92,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.514659,
+      "pnl": 3.759600599365014,
+      "return": 0.017979000000000002,
+      "capital": 10459.292720809091
+    },
+    {
+      "index": 93,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.521171,
+      "pnl": 4.5441443154827175,
+      "return": 0.021723,
+      "capital": 10463.836865124575
+    },
+    {
+      "index": 94,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.519011,
+      "pnl": 4.411344345599218,
+      "return": 0.021079,
+      "capital": 10468.248209470174
+    },
+    {
+      "index": 95,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.509802,
+      "pnl": 2.170067853823167,
+      "return": 0.010365,
+      "capital": 10470.418277323997
+    },
+    {
+      "index": 96,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.529339,
+      "pnl": 5.855267309045126,
+      "return": 0.027961,
+      "capital": 10476.273544633043
+    },
+    {
+      "index": 97,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.527689,
+      "pnl": 5.785207776817258,
+      "return": 0.027611,
+      "capital": 10482.05875240986
+    },
+    {
+      "index": 98,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.525596,
+      "pnl": 5.251721076132388,
+      "return": 0.025051,
+      "capital": 10487.310473485992
+    },
+    {
+      "index": 99,
+      "type": "liquidity",
+      "direction": "BUY",
+      "confidence": 0.524261,
+      "pnl": 4.751590629327033,
+      "return": 0.022654,
+      "capital": 10492.062064115318
+    }
+  ]
+}

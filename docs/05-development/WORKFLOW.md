@@ -28,7 +28,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/zrj330824-ship-it/Neuroleptic_System.git
+git clone https://github.com/zrj330824-ship-it/NeuralField_System.git
 cd NeuralFieldNet
 
 # 2. 创建虚拟环境

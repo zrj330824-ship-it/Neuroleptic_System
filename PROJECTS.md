@@ -15,7 +15,7 @@
 | Project | Status | Priority | Location |
 |---------|--------|----------|----------|
 | **Trading** | 🟢 Live | ⭐⭐⭐⭐⭐ | `projects/trading/` |
-| **Neuroleptic** | 🟡 Research | ⭐⭐⭐⭐⭐ | `projects/neuroleptic/` |
+| **NeuralFieldNet** | 🟡 Research | ⭐⭐⭐⭐⭐ | `projects/neuralfield/` |
 | **Content** | 🟢 Active | ⭐⭐⭐⭐ | `projects/content/` |
 | **Automation** | 🟢 Active | ⭐⭐⭐ | `projects/automation/` |
 
@@ -39,8 +39,9 @@
 
 ---
 
-### 2. Neuroleptic (projects/neuroleptic/)
-**Research**: Neural Field Computing
+### 2. NeuralFieldNet (projects/neuralfield/)
+**Research**: Neural Field Computing  
+**System**: NeuralFieldModel (NFM)
 
 **Components**:
 - Neural Field Dynamics (64x64 field)

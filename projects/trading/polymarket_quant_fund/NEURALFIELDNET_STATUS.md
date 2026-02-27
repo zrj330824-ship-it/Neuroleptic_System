@@ -1,7 +1,7 @@
 # 🚀 NeuralFieldNet (NFN) - System Status
 
 **Team**: NeuralFieldNet (NFN)  
-**Project**: NeuralField System (formerly Neuroleptic System)  
+**System**: NeuralFieldModel (NFM)  
 **Status**: ✅ LIVE & TRADING  
 **Updated**: 2026-02-26 08:45  
 
@@ -176,7 +176,7 @@ print(f'💰 ${s[\"current_capital\"]:,.2f} | Trades: {s[\"total_trades\"]} | Wi
 
 ### 2026-02-26 08:45
 
-- ✅ Renamed: Neuroleptic System → NeuralField System
+- ✅ Renamed: Neuroleptic → NeuralFieldNet (NFN) / NeuralFieldModel (NFM)
 - ✅ Team name: NeuralFieldNet (NFN)
 - ✅ Integrated: Signal generation + paper trading
 - ✅ Fixed: Cron schedule (every 5 minutes)

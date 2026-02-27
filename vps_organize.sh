@@ -16,7 +16,7 @@ echo ""
 
 # 创建新的目录结构
 echo "📁 创建新目录结构..."
-ssh -i ~/.ssh/vps_key root@8.208.78.10 "cd $REMOTE_DIR && mkdir -p {trading/{scripts,config,logs},content/{scripts,articles,assets},neuroleptic/{scripts,research},automation/{scripts,logs},.archive,backup}"
+ssh -i ~/.ssh/vps_key root@8.208.78.10 "cd $REMOTE_DIR && mkdir -p {trading/{scripts,config,logs},content/{scripts,articles,assets},neuralfield/{scripts,research},automation/{scripts,logs},.archive,backup}"
 
 # 1. Trading 相关文件
 echo "📈 移动 Trading 相关文件..."
@@ -68,12 +68,12 @@ ssh -i ~/.ssh/vps_key root@8.208.78.10 "cd $REMOTE_DIR && {
   mv -f youtube_videos/ content/assets/ 2>/dev/null || true
 }"
 
-# 3. Neuroleptic 相关文件
-echo "🧠 移动 Neuroleptic 相关文件..."
+# 3. NeuralField 相关文件
+echo "🧠 移动 NeuralField 相关文件..."
 ssh -i ~/.ssh/vps_key root@8.208.78.10 "cd $REMOTE_DIR && {
-  mv -f neural_field_signal_generator_v2.py neuroleptic/scripts/ 2>/dev/null || true
-  mv -f nlp_reports/ neuroleptic/research/ 2>/dev/null || true
-  mv -f private_strategy/ neuroleptic/ 2>/dev/null || true
+  mv -f neural_field_signal_generator_v2.py neuralfield/scripts/ 2>/dev/null || true
+  mv -f nlp_reports/ neuralfield/research/ 2>/dev/null || true
+  mv -f private_strategy/ neuralfield/ 2>/dev/null || true
 }"
 
 # 4. 归档文件
@@ -114,7 +114,7 @@ polymarket_quant_fund/
 │   ├── scripts/          # Auto-post 脚本
 │   ├── articles/         # 文章产品
 │   └── assets/           # 社交媒体资源
-├── neuroleptic/          # 神经场研究
+├── neuralfield/          # 神经场研究
 │   ├── scripts/          # 信号生成器
 │   └── research/         # 研究报告
 ├── automation/           # 自动化工具
@@ -138,7 +138,7 @@ polymarket_quant_fund/
 - 已发布文章和帖子
 - 社交媒体资源
 
-### neuroleptic/
+### neuralfield/
 - Neural Field 信号生成器
 - NLP 报告
 - 私有策略研究
@@ -154,7 +154,7 @@ polymarket_quant_fund/
 ```bash
 ls -la trading/
 ls -la content/
-ls -la neuroleptic/
+ls -la neuralfield/
 ```
 
 **注意**: cookies/ 和 .env 包含敏感信息，权限已设为 600
@@ -172,7 +172,7 @@ echo "📊 文件统计:"
 ssh -i ~/.ssh/vps_key root@8.208.78.10 "cd $REMOTE_DIR && {
   echo \"  Trading: \$(find trading/ -type f 2>/dev/null | wc -l) 文件\"
   echo \"  Content: \$(find content/ -type f 2>/dev/null | wc -l) 文件\"
-  echo \"  Neuroleptic: \$(find neuroleptic/ -type f 2>/dev/null | wc -l) 文件\"
+  echo \"  NeuralField: \$(find neuralfield/ -type f 2>/dev/null | wc -l) 文件\"
   echo \"  Archive: \$(find .archive/ -type f 2>/dev/null | wc -l) 文件\"
   echo \"  Root: \$(find . -maxdepth 1 -type f | wc -l) 文件 (cookies, .env, STRUCTURE.md)\"
 }"

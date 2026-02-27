@@ -125,7 +125,7 @@ ssh root@8.208.78.10 "pkill -f websocket; cd /root/polymarket_quant_fund && nohu
 
 - [Automation](../automation/) - Shares VPS deployment workflow
 - [Content](../content/) - Marketing trading results
-- [Neuroleptic](../neuroleptic/) - Independent (AI research)
+- [NeuralField](../neuralfield/) - Independent (AI research)
 
 ---
 
